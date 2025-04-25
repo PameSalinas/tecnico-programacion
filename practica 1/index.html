@@ -11,6 +11,13 @@
             font-size: 1.2rem;
             margin: 0;
             padding: 0;
+            background: #076585;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #fff, #61a1b6);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #fff, #4cb2d4);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
         }
 
         header {
@@ -18,12 +25,19 @@
             justify-content: center;
             align-items: center;
             gap: 1rem;
-            
-        } 
-        
+
+        }
+
         header nav {
-            background-color: #c4c8ce; 
-            width: 100%;
+            background: #4AC29A;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to left, #BDFFF3, #4AC29A);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to left, #BDFFF3, #4AC29A);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            width: 100%; 
+
+
         }
 
         header nav ul {
@@ -33,6 +47,10 @@
             justify-content: center;
             align-items: center;
             gap: 2.5rem;
+        }
+
+        header nav ul li a {
+            text-decoration: none;
         }
 
         #banner {
