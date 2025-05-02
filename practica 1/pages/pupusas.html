@@ -1,195 +1,220 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Comida Típica de El Salvador</title>
 
     <style>
-        body {
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            font-size: 1.2rem;
-            margin: 0;
-            padding: 0;
-            background: #C9D6FF;
-            /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);
-            /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #E2E2E2, #C9D6FF);
-            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-size: 1.2rem;
+        margin: 0;
+        padding: 0;
+        background-color: #f7f7f5;
+      }
 
-        }
+      header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+      }
 
-        header {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 1rem;
+      header nav {
+        background-color: #425351;
+        width: 100%;
+      }
 
-        }
+      header nav ul {
+        list-style-type: none;
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2.5rem;
+      }
 
-        header nav {
-            background-color: #c4c8ce;
-            width: 100%;
-        }
+      header nav ul li a {
+        color: #fff;
+        text-decoration: none;
+      }
 
-        header nav ul {
-            list-style-type: none;
-            padding-left: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 2.5rem;
-        }
+      main {
+        width: 80%;
+        margin: 3rem auto;
+      }
 
-        header nav ul li a {
-            text-decoration: none;
-        }
+      #images {
+        margin: 3rem 0;
+      }
 
-        main {
-            width: 80%;
-            margin: 3rem auto;
-        }
+      #images h2 {
+        text-align: center;
+      }
 
-        #images {
-            margin: 3rem 0;
-        }
+      #images div {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
 
-        #images h2 {
-            text-align: center;
-        }
+      #images div img {
+        width: 500px;
+        height: 300px;
+        object-fit: cover;
+      }
 
-        #images div {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-        }
+      #videos h2 {
+        text-align: center;
+      }
 
-        #images div img {
-            width: 400px;
-            height: 300px;
-            object-fit: cover;
-        }
-
-        #videos h2 {
-            text-align: center;
-        }
-
-        #videos div {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
+      #videos div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
     </style>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="../index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="./pupusas.html">Pupusas</a>
-
-                </li>
-                <li>
-                    <a href="./tamales.html">Tamales</a>
-                </li>
-                <li>
-                    <a href="./pasteles.html">Pasteles</a>
-
-                </li>
-                <li>
-                    <a href="./Yuca.html">Yuca</a>
-                </li>
-                <li>
-                    <a href="./canoas.html">Canoas</a>
-                </li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li>
+            <a href="../index.html">Inicio</a>
+          </li>
+          <li>
+            <a href="./pupusas.html">Pupusas</a>
+          </li>
+          <li>
+            <a href="./tamales.html">Tamales</a>
+          </li>
+          <li>
+            <a href="./pasteles.html">Pasteles</a>
+          </li>
+          <li>
+            <a href="./Yuca.html">Yuca</a>
+          </li>
+          <li>
+            <a href="./canoas.html">Canoas</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <section>
-            <h1>Pupusas</h1>
-            <p>
-                Las pupusas son el platillo más representativo de El Salvador y un verdadero símbolo nacional. Se trata
-                de una tortilla gruesa de maíz (o de arroz) rellena con ingredientes variados como queso, frijoles
-                refritos, chicharrón, ayote o loroco. Tradicionalmente, se cocinan en un comal y se sirven acompañadas
-                de curtido (repollo fermentado con zanahoria y vinagre) y salsa de tomate. Son populares en todo el país
-                y tienen su propio día nacional: el segundo domingo de noviembre.
-            </p>
-        </section>
-        <section>
-            <h2>Ingredientes Principales</h2>
-            <ul>
-                <li>4 tazas de harina de maíz</li>
-                <li>2 tazas de agua tibia</li>
-                <li>1 cucharadita de sal</li>
-                <li>1 taza de queso rallado</li>
-                <li>1 taza de frijoles refritos</li>
-                <li>Salsa</li>
-                <li>Curtido</li>
-            </ul>
-        </section>
+      <section>
+        <h1>Pupusas</h1>
+        <p>
+          Las pupusas son el platillo más representativo de El Salvador y un
+          verdadero símbolo nacional. Se trata de una tortilla gruesa de maíz (o
+          de arroz) rellena con ingredientes variados como queso, frijoles
+          refritos, chicharrón, ayote o loroco. Tradicionalmente, se cocinan en
+          un comal y se sirven acompañadas de curtido (repollo fermentado con
+          zanahoria y vinagre) y salsa de tomate. Son populares en todo el país
+          y tienen su propio día nacional: el segundo domingo de noviembre.
+        </p>
+      </section>
+      <section>
+        <h2>Ingredientes Principales</h2>
+        <ul>
+          <li>4 tazas de harina de maíz.</li>
+          <li>2 tazas de agua tibia.</li>
+          <li>1 cucharadita de sal.</li>
+          <li>1 taza de queso rallado.</li>
+          <li>1 taza de frijoles refritos.</li>
+          <li>Salsa.</li>
+          <li>Curtido.</li>
+        </ul>
+      </section>
 
-        <section>
-            <h2>Preparación</h2>
-            <ol>
-                <li>En un bol grande mezclar la harina de maíz, con el agua tibia, y la sal hasta que la masa esté suave
-                    y manejable. Dejar reposar unos minutos 15/20 minutos, tapada con un paño.</li>
+      <section>
+        <h2>Preparación</h2>
+        <ol>
+          <li>
+            En un bol grande mezclar la harina de maíz, con el agua tibia, y la
+            sal hasta que la masa esté suave y manejable. Dejar reposar unos
+            minutos 15/20 minutos, tapada con un paño.
+          </li>
 
-                <li>Una vez que la masa reposo, fomar unas bolitas del tamaño de una pelota de golf. Humedecer las manos
-                    o poneles un poco de aceite para el armado.</li>
+          <li>
+            Una vez que la masa reposo, fomar unas bolitas del tamaño de una
+            pelota de golf. Humedecer las manos o poneles un poco de aceite para
+            el armado.
+          </li>
 
-                <li>Para rellenarlas hacer un agujero con los dedos en cada bolita de masa,hasta que sea lo suficiente
-                    grande como para agregar el relleno. </li>
+          <li>
+            Para rellenarlas hacer un agujero con los dedos en cada bolita de
+            masa,hasta que sea lo suficiente grande como para agregar el
+            relleno.
+          </li>
 
-                <li>Agregar aproximadamente una cucharada de queso rallado o frijoles refritos al agujero de la masa.
-                    Cerrar el agujero con cuidado y volver a formar la bola de masa hasta darle la forma de una
-                    tortilla.</li>
+          <li>
+            Agregar aproximadamente una cucharada de queso rallado o frijoles
+            refritos al agujero de la masa. Cerrar el agujero con cuidado y
+            volver a formar la bola de masa hasta darle la forma de una
+            tortilla.
+          </li>
 
-                <li>Cocinar las pupusas en un comal o sartén caliente durante 2-3 minutos de cada lado.</li>
+          <li>
+            Cocinar las pupusas en un comal o sartén caliente durante 2-3
+            minutos de cada lado.
+          </li>
 
-                <li>Sevir caliente con salsa y curtido, o con el acompañamiento elegido.</li>
+          <li>
+            Sevir caliente con salsa y curtido, o con el acompañamiento elegido.
+          </li>
+        </ol>
+      </section>
 
-            </ol>
-        </section>
+      <section id="images">
+        <h2>Imágenes</h2>
+        <div>
+          <img src="../images/pupusas/imagen1.jpg" alt="imagen 1" />
+          <img src="../images/pupusas/imagen2.webp" alt="imagen 2" />
+          <img src="../images/pupusas/imagen3.jpg" alt="imagen3" />
+        </div>
+      </section>
 
-        <section id="images">
-            <h2>Imágenes</h2>
-            <div>
-                <img src="../images/pupusas/imagen1.jpg" alt="imagen 1" />
-                <img src="../images/pupusas/imagen2.webp" alt="imagen 2" />
-            </div>
-        </section>
+      <section id="videos">
+        <h2>Videos</h2>
+        <div>
+          <iframe
+            width="450"
+            height="315"
+            src="https://www.youtube.com/embed/cqV-INtBwZ4?si=tbopj65o525lueSA"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
 
-        <section id="videos">
-            <h2>Videos</h2>
-            <div>
-                <iframe width="450" height="315" src="https://www.youtube.com/embed/cqV-INtBwZ4?si=tbopj65o525lueSA"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe
+            width="450"
+            height="315"
+            src="https://www.youtube.com/embed/MOOdPdPcj14?si=Td_9SfS_Qq3PHltH"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
 
-                <iframe width="450" height="315" src="https://www.youtube.com/embed/MOOdPdPcj14?si=Td_9SfS_Qq3PHltH"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-                <iframe width="450" height="315" src="https://www.youtube.com/embed/VyRHgZo-TpI?si=qQ04-hmx81PS4jxY"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-
-        </section>
-
-
+          <iframe
+            width="450"
+            height="315"
+            src="https://www.youtube.com/embed/VyRHgZo-TpI?si=qQ04-hmx81PS4jxY"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
     </main>
-</body>
-
+  </body>
 </html>

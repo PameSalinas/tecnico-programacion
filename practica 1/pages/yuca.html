@@ -1,234 +1,249 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Comida Típica de El Salvador</title>
 
     <style>
-        body {
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            font-size: 1.2rem;
-            margin: 0;
-            padding: 0;
-            background: #ee9ca7;
-            /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);
-            /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #ffdde1, #ee9ca7);
-            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-size: 1.2rem;
+        margin: 0;
+        padding: 0;
+        background-color: #f7f7f5;
+      }
 
+      header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+      }
 
-        }
+      header nav {
+        width: 100%;
+        background-color: #425351;
+      }
 
-        header {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 1rem;
+      header nav ul {
+        list-style-type: none;
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2.5rem;
+      }
 
-        }
+      header nav ul li a {
+        color: #fff;
+        text-decoration: none;
+      }
 
-        header nav {
-            background: #f8aeb8;
-            /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #f19ea6, #f0a0ab);
-            /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #b87d84, #e0959f);
-            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      main {
+        width: 80%;
+        margin: 3rem auto;
+      }
 
-            
-            width: 100%;
+      #images {
+        margin: 3rem 0;
+      }
 
+      #images h2 {
+        text-align: center;
+      }
 
-        }
+      #images div {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
 
-        header nav ul {
-            list-style-type: none;
-            padding-left: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 2.5rem;
-        }
+      #images div img {
+        width: 500px;
+        height: 300px;
+        object-fit: cover;
+      }
 
-        header nav ul li a {
-            text-decoration: none;
-        }
+      #videos h2 {
+        text-align: center;
+      }
 
-        main {
-            width: 80%;
-            margin: 3rem auto;
-        }
-
-        #images {
-            margin: 3rem 0;
-        }
-
-        #images h2 {
-            text-align: center;
-        }
-
-        #images div {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-        }
-
-        #images div img {
-            width: 400px;
-            height: 300px;
-            object-fit: cover;
-        }
-
-        #videos h2 {
-            text-align: center;
-        }
-
-        #videos div {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
+      #videos div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
     </style>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="../index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="./pupusas.html">Pupusas</a>
-
-                </li>
-                <li>
-                    <a href="./tamales.html">Tamales</a>
-                </li>
-                <li>
-                    <a href="./pasteles.html">Pasteles</a>
-
-                </li>
-                <li>
-                    <a href="./Yuca.html">Yuca</a>
-                </li>
-                <li>
-                    <a href="./canoas.html">Canoas</a>
-                </li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li>
+            <a href="../index.html">Inicio</a>
+          </li>
+          <li>
+            <a href="./pupusas.html">Pupusas</a>
+          </li>
+          <li>
+            <a href="./tamales.html">Tamales</a>
+          </li>
+          <li>
+            <a href="./pasteles.html">Pasteles</a>
+          </li>
+          <li>
+            <a href="./Yuca.html">Yuca</a>
+          </li>
+          <li>
+            <a href="./canoas.html">Canoas</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <section>
-            <h1>Yuca</h1>
-            <p>
-                <strong>La yuca salvadoreña es un cultivo tradicional</strong> y un alimento esencial en la dieta de
-                muchas comunidades del país. Este tubérculo, conocido por su sabor suave y su textura versátil, se ha
-                cultivado en El Salvador desde tiempos precolombinos y continúa siendo una fuente importante de
-                nutrición y sustento económico para agricultores de subsistencia. Su capacidad para crecer en suelos
-                pobres y su resistencia a la sequía la hacen ideal para las condiciones climáticas del territorio
-                salvadoreño.
-            </p>
-        </section>
-        <section>
-            <h2>Ingredientes</h2>
-            <ul>
-                <li>1 kg de yuca (fresca o congelada, pelada y cortada en trozos)</li>
+      <section>
+        <h1>Yuca</h1>
+        <p>
+          <strong>La yuca salvadoreña es un cultivo tradicional</strong> y un
+          alimento esencial en la dieta de muchas comunidades del país. Este
+          tubérculo, conocido por su sabor suave y su textura versátil, se ha
+          cultivado en El Salvador desde tiempos precolombinos y continúa siendo
+          una fuente importante de nutrición y sustento económico para
+          agricultores de subsistencia. Su capacidad para crecer en suelos
+          pobres y su resistencia a la sequía la hacen ideal para las
+          condiciones climáticas del territorio salvadoreño.
+        </p>
+      </section>
+      <section>
+        <h2>Ingredientes</h2>
+        <ul>
+          <li>
+            1 kg de yuca (fresca o congelada, pelada y cortada en trozos).
+          </li>
 
-                <li>Agua (suficiente para hervir la yuca)</li>
+          <li>Agua (suficiente para hervir la yuca).</li>
 
-                <li>Sal al gusto</li>
+          <li>Sal al gusto.</li>
 
-                <li>Aceite vegetal para freír</li>
+          <li>Aceite vegetal para freír.</li>
 
-                <li>Curtido salvadoreño (repollo, zanahoria y cebolla en vinagre)</li>
+          <li>
+            Curtido salvadoreño (repollo, zanahoria y cebolla en vinagre).
+          </li>
 
-                <li>Salsa de tomate casera</li>
-            </ul>
+          <li>Salsa de tomate casera.</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Preparación</h2>
+        <h3>Preparar la yuca</h3>
+        <ol>
+          <li>
+            Remover su capa y córtala en trozos medianos, (retirando la vena
+            central).
+          </li>
 
-        </section>
-        <section>
-            <h2>Preparación</h2>
-            <h3>Preparar la yuca:</h3>
-            <ol>
-                <li>Remover su capa y córtala en trozos medianos, (retirando la vena central).</li>
+          <li>Lava muy bien los trozos de yuca.</li>
+        </ol>
 
-                <li>Lava muy bien los trozos de yuca.</li>
-            </ol>
+        <h3>Hervir la yuca</h3>
+        <ol>
+          <li>
+            colocandola en una olla grande donde se pueda cubrir por completo.
+          </li>
 
-            <h3>Hervir la yuca:</h3>
-            <ol>
-                <li>colocandola en una olla grande donde se pueda cubrir por completo.</li>
+          <li>Agrega sal al gusto.</li>
 
-                <li>Agrega sal al gusto.</li>
+          <li>
+            Cocina a fuego medio por 25 a 35 minutos, o hasta que esté suave.
+          </li>
 
-                <li>Cocina a fuego medio por 25 a 35 minutos, o hasta que esté suave.</li>
+          <li>Dejar que se enfríe si aplicarle agua fría.</li>
+        </ol>
 
-                <li>Dejar que se enfríe si aplicarle agua fría.</li>
-            </ol>
+        <h3>Freír la yuca</h3>
 
-            <h3>Freír la yuca:</h3>
+        <ol>
+          <li>calienta suficiente aceite en una sartén profunda.</li>
 
-            <ol>
-                <li>calienta suficiente aceite en una sartén profunda.</li>
+          <li>Fríe los trozos de yuca hasta que estén dorados.</li>
 
-                <li>Fríe los trozos de yuca hasta que estén dorados.</li>
+          <li>
+            Retíralos y colócalos sobe papel, absorbente para eliminar el exceso
+            de aceite.
+          </li>
+        </ol>
 
-                <li>Retíralos y colócalos sobe papel, absorbente para eliminar el exceso de aceite.</li>
-            </ol>
+        <h3>Prepación del curtido</h3>
+        <ol>
+          <li>
+            Raya muy bien el repollo y ponlo en agua caliente, dejandolo hervir
+            3 minutos.
+          </li>
 
-            <h3>Prepación del curtido:</h3>
-            <ol>
-                <li>Raya muy bien el repollo y ponlo en agua caliente, dejandolo hervir 3 minutos.</li>
+          <li>coloca zanahoria.</li>
 
-                <li>coloca zanahoria.</li>
+          <li>Agrega sal y pimienta.</li>
 
-                <li>Agrega sal y pimienta.</li>
+          <li>Opcionalmente puedes aplicar vinagre al curtido.</li>
+        </ol>
 
-                <li>Opcionalmente puedes aplicar vinagre al curtido.</li>
-            </ol>
+        <h3>Preparación de salsa</h3>
+        <ol>
+          <li>Licúa tomate, cebolla, chile, y agrega sal.</li>
 
-            <h3>Preparación de salsa:</h3>
-            <ol>
-                <li>Licúa tomate, cebolla, chile, y agrega sal.</li>
+          <li>Despues de licuar pones a hervir la salsa con fuego medio.</li>
+        </ol>
+      </section>
+      <section id="images">
+        <h2>Imágenes</h2>
+        <div>
+          <img src="../images/yuca/imagen1.jpg" alt="imagen1" />
+          <img src="../images/yuca/imagen2.jpg" alt="imagen2" />
+          <img src="../images/yuca/imagen3.jpg" alt="imagen3" />
+        </div>
+      </section>
+      <section id="videos">
+        <h2>Vídeos</h2>
+        <div>
+          <iframe
+            width="450"
+            height="315"
+            src="https://www.youtube.com/embed/dp6oQ7cekPc?si=c00l6YLASKyZjq5G"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
 
-                <li>Despues de licuar pones a hervir la salsa con fuego medio.</li>
-            </ol>
+          <iframe
+            width="450"
+            height="315"
+            src="https://www.youtube.com/embed/eyf1xqazn4c?si=ohjdJhXGkokI2VWU"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
 
-        </section>
-        <section id="images">
-            <h2>Imágenes</h2>
-            <div>
-                <img src="../images/yuca/yuca1.jpg" alt="imagen1" />
-                <img src="../images/yuca/yuca2.jpg" alt="imagen2" />
-            </div>
-
-        </section>
-        <section id="videos">
-            <h2>Vídeos</h2>
-            <div>
-                <iframe width="450" height="315" src="https://www.youtube.com/embed/dp6oQ7cekPc?si=c00l6YLASKyZjq5G"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-                <iframe width="450" height="315" src="https://www.youtube.com/embed/eyf1xqazn4c?si=ohjdJhXGkokI2VWU"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-                <iframe width="450" height="315" src="https://www.youtube.com/embed/vMTUBI7SOB4?si=nFpz1q9mDa0YUsF0"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-            </div>
-        </section>
+          <iframe
+            width="450"
+            height="315"
+            src="https://www.youtube.com/embed/vMTUBI7SOB4?si=nFpz1q9mDa0YUsF0"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
     </main>
-</body>
-
+  </body>
 </html>

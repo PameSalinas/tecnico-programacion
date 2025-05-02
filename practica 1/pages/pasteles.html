@@ -1,253 +1,286 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Comida Típica de El Salvador</title>
 
     <style>
-        body {
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            font-size: 1.2rem;
-            margin: 0;
-            padding: 0;
-            background: #BA5370;
-            /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #F4E2D8, #BA5370);
-            /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #F4E2D8, #BA5370);
-            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-size: 1.2rem;
+        margin: 0;
+        padding: 0;
+        background-color: #f7f7f5;
+      }
 
-        }
+      header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+      }
 
-        header {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 1rem;
+      header nav {
+        background-color: #425351;
+        width: 100%;
+      }
 
-        }
+      header nav ul {
+        list-style-type: none;
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2.5rem;
+      }
 
-        header nav {
-            background: #ee9ca7;
-            /* fallback for old browsers */
-            background: -webkit-linear-gradient(to top, #ffdde1, #ee9ca7);
-            /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to top, #ffdde1, #ee9ca7);
-            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-            width: 100%;
-        }
+      header nav ul li a {
+        color: #fff;
+        text-decoration: none;
+      }
 
-        header nav ul {
-            list-style-type: none;
-            padding-left: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 2.5rem;
-        }
+      main {
+        width: 80%;
+        margin: 3rem auto;
+      }
 
-        header nav ul li a {
-            text-decoration: none;
-        }
+      #images {
+        margin: 3rem 0;
+      }
 
-        main {
-            width: 80%;
-            margin: 3rem auto;
-        }
+      #images h2 {
+        text-align: center;
+      }
 
-        #images {
-            margin: 3rem 0;
-        }
+      #images div {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
 
-        #images h2 {
-            text-align: center;
-        }
+      #images div img {
+        width: 500px;
+        height: 300px;
+        object-fit: cover;
+      }
 
-        #images div {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-        }
+      #videos h2 {
+        text-align: center;
+      }
 
-        #images div img {
-            width: 400px;
-            height: 300px;
-            object-fit: cover;
-        }
-
-        #videos h2 {
-            text-align: center;
-        }
-
-        #videos div {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
+      #videos div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
     </style>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="../index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="./pupusas.html">Pupusas</a>
-
-                </li>
-                <li>
-                    <a href="./tamales.html">Tamales</a>
-                </li>
-                <li>
-                    <a href="./pasteles.html">Pasteles</a>
-
-                </li>
-                <li>
-                    <a href="./Yuca.html">Yuca</a>
-                </li>
-                <li>
-                    <a href="./canoas.html">Canoas</a>
-                </li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li>
+            <a href="../index.html">Inicio</a>
+          </li>
+          <li>
+            <a href="./pupusas.html">Pupusas</a>
+          </li>
+          <li>
+            <a href="./tamales.html">Tamales</a>
+          </li>
+          <li>
+            <a href="./pasteles.html">Pasteles</a>
+          </li>
+          <li>
+            <a href="./Yuca.html">Yuca</a>
+          </li>
+          <li>
+            <a href="./canoas.html">Canoas</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <section>
-            <h1>Pasteles</h1>
-            <p>
-                Los pasteles típicos de <strong>El Salvador</strong> son una deliciosa muestra de la <strong>riqueza
-                    gastronómica del paíz.</strong> Elaborados principalmente con unua masa de maíz y rellenos de carne,
-                pollo o verduras. Son muy populares en reuniones familiares, feria y celebraciones tradicionales, y
-                representan: Una fusión de herencia <strong>indígena</strong> y sabores <strong>criollos</strong> que
-                foman parte esencial de la identidad culinaria (SALVADOREÑA) los pasteles típicos salvadoreños tienen
-                sus raíces en la época precolombina, cuando el maíz ya era un alimento fundamental en la dieta de los
-                pueblos indígenas mesoamericanos.
-            </p>
-        </section>
-        <section>
-            <h2>Ingredientes</h2>
-            <ul>
-                <li>2 tazas de masa de maíz (puede ser masa fresca o harina de maíz precocida tipo Maseca)</li>
+      <section>
+        <h1>Pasteles</h1>
+        <p>
+          Los pasteles típicos de <strong>El Salvador</strong> son una deliciosa
+          muestra de la
+          <strong>riqueza gastronómica del paíz.</strong> Elaborados
+          principalmente con unua masa de maíz y rellenos de carne, pollo o
+          verduras. Son muy populares en reuniones familiares, feria y
+          celebraciones tradicionales, y representan: Una fusión de herencia
+          <strong>indígena</strong> y sabores <strong>criollos</strong> que
+          foman parte esencial de la identidad culinaria salavadoreña los
+          pasteles típicos salvadoreños tienen sus raíces en la época
+          precolombina, cuando el maíz ya era un alimento fundamental en la
+          dieta de los pueblos indígenas mesoamericanos.
+        </p>
+      </section>
+      <section>
+        <h2>Ingredientes</h2>
+        <ul>
+          <li>
+            2 tazas de masa de maíz (puede ser masa fresca o harina de maíz
+            precocida tipo Maseca).
+          </li>
 
-                <li>1 tazas de caldo de pollo o res (para dar sabor).</li>
+          <li>1 tazas de caldo de pollo o res (para dar sabor).</li>
 
-                <li>2 cucharadas de aceite vegetal.</li>
+          <li>2 cucharadas de aceite vegetal.</li>
 
-                <li>Sal al gusto.</li>
+          <li>Sal al gusto.</li>
 
-                <li>Achiote para dar color.</li>
+          <li>Achiote para dar color.</li>
 
-                <li> 1 pechuga de pollo cocida y desmenuzada o carne molida de res.</li>
+          <li>
+            1 pechuga de pollo cocida y desmenuzada o carne molida de res.
+          </li>
 
-                <li>1 papa mediana, pelada y picada en cubitos.</li>
+          <li>1 papa mediana, pelada y picada en cubitos.</li>
 
-                <li>1 zanahoria, pelada y picada en cubitos.</li>
+          <li>1 zanahoria, pelada y picada en cubitos.</li>
 
-                <li> cebolla picada.</li>
+          <li>Cebolla picada.</li>
 
-                <li>1 tomate picado.</li>
+          <li>1 tomate picado.</li>
 
-                <li>1 diente de ajo picado.</li>
+          <li>1 diente de ajo picado.</li>
 
-                <li>Sal, pimienta y comino al gusto.</li>
+          <li>Sal, pimienta y comino al gusto.</li>
 
-                <li>Un poco de consomé de pollo o res en polvo, de forma opcional.</li>
-            </ul>
-        </section>
+          <li>
+            Un poco de consomé de pollo o res en polvo, de forma opcional.
+          </li>
+        </ul>
+      </section>
 
-        <section>
-            <h2>Preparación</h2>
-            <h3>Preparar el relleno:</h3>
-            <ol>
+      <section>
+        <h2>Preparación</h2>
+        <h3>Preparar el relleno</h3>
+        <ol>
+          <li>
+            En una sartén con un poco de aceite, sofríe la cebolla, el ajo y el
+            tomate hasta que estén suaves.
+          </li>
 
-                <li>En una sartén con un poco de aceite, sofríe la cebolla, el ajo y el tomate hasta que estén suaves.
-                </li>
+          <li>
+            Agrega la carne desmenuzada o molida y cocina por unos minutos.
+          </li>
 
-                <li>Agrega la carne desmenuzada o molida y cocina por unos minutos.</li>
+          <li>
+            Añade la papa, la zanahoria y los ejotes (si usas). Cocina a fuego
+            medio, mezclando bien.
+          </li>
 
-                <li>Añade la papa, la zanahoria y los ejotes (si usas). Cocina a fuego medio, mezclando bien.</li>
+          <li>Sazona con sal, pimienta, comino y consomé al gusto.</li>
 
-                <li>Sazona con sal, pimienta, comino y consomé al gusto.</li>
+          <li>
+            Agrega un poco de agua o caldo si es necesario y cocina hasta que
+            las verduras estén blandas y el relleno espeso.
+          </li>
+        </ol>
 
-                <li>Agrega un poco de agua o caldo si es necesario y cocina hasta que las verduras estén blandas y el
-                    relleno espeso.</li>
+        <h3>Preparar la masa</h3>
 
-            </ol>
+        <ol>
+          <li>
+            En un tazón, mezcla la masa de maíz con el caldo (pollo o res),
+            aceite, sal y achiote.
+          </li>
 
-            <h3>Preparar la masa:</h3>
+          <li>
+            Amasa hasta que esté suave, manejable y sin grumos. La consistencia
+            debe ser parecida a la de una masa para tortillas, ni muy seca ni
+            muy aguada.
+          </li>
+        </ol>
 
-            <ol>
-                <li>En un tazón, mezcla la masa de maíz con el caldo (pollo o res), aceite, sal y achiote.</li>
+        <h3>Armar los pasteles</h3>
+        <ol>
+          <li>
+            Toma una porción de masa (como una bola mediana) y aplánala con las
+            manos o entre dos plásticos.
+          </li>
 
-                <li>Amasa hasta que esté suave, manejable y sin grumos. La consistencia debe ser parecida a la de una
-                    masa para tortillas, ni muy seca ni muy aguada.</li>
+          <li>Coloca una cucharada del relleno en el centro.</li>
 
-            </ol>
+          <li>
+            Dobla con cuidado la masa sobre el relleno (como una empanada) y
+            sella los bordes presionando con los dedos.
+          </li>
+        </ol>
 
-            <h3>Armar los pasteles:</h3>
-            <ol>
-                <li>Toma una porción de masa (como una bola mediana) y aplánala con las manos o entre dos plásticos.
-                </li>
+        <h3>Freír los pasteles</h3>
+        <ol>
+          <li>Calienta suficiente aceite en una sartén honda.</li>
 
-                <li>Coloca una cucharada del relleno en el centro.</li>
+          <li>
+            Fríe los pasteles a fuego medio hasta que estén dorados por ambos
+            lados.
+          </li>
 
-                <li>Dobla con cuidado la masa sobre el relleno (como una empanada) y sella los bordes presionando con
-                    los dedos.</li>
-            </ol>
+          <li>
+            Colócalos sobre papel toalla para eliminar el exceso de grasa.
+          </li>
+        </ol>
 
-            <h3>Freír los pasteles:</h3>
-            <ol>
-                <li>Calienta suficiente aceite en una sartén honda.</li>
+        <h3>Servir</h3>
+        <ol>
+          <li>Finalmente sirve y acompañalos con salsa de tomate y curtido.</li>
+        </ol>
+      </section>
 
-                <li>Fríe los pasteles a fuego medio hasta que estén dorados por ambos lados.</li>
+      <section id="images">
+        <h2>Imágenes</h2>
+        <div>
+          <img src="../images/Pasteles/imagen1.jpg" alt="imagen1" />
+          <img src="../images/Pasteles/imagen2.jpg" alt="imagen2" />
+          <img src="../images/pasteles/imagen3.jpg" alt="imagen3" />
+        </div>
+      </section>
 
-                <li>Colócalos sobre papel toalla para eliminar el exceso de grasa.</li>
-            </ol>
+      <section id="videos">
+        <h2>Vídeos</h2>
+        <div>
+          <iframe
+            width="450"
+            height="315"
+            src="https://www.youtube.com/embed/ksDEIM49zTc?si=NMqvIs8MekWzFMqA"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
 
-            <h3>Servir:</h3>
-            <ol>
-                <li>Finalmente sirve y acompañalos con salsa de tomate y curtido.</li>
-            </ol>
+          <iframe
+            width="450"
+            height="315"
+            src="https://www.youtube.com/embed/8PeKqiYh2GY?si=Dxv4Q-pKgVSEumfy"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
 
-        </section>
-
-        <section id="images">
-            <h2>Imágenes</h2>
-            <div>
-                <img src="../images/Pasteles/img1.jpg" alt="imagen1" />
-                <img src="../images/Pasteles/img2.jpg" alt="imagen2" />
-
-            </div>
-        </section>
-
-        <section id="videos">
-            <h2>Vídeos</h2>
-            <div>
-                <iframe width="450" height="315" src="https://www.youtube.com/embed/ksDEIM49zTc?si=NMqvIs8MekWzFMqA"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-                <iframe width="450" height="315" src="https://www.youtube.com/embed/8PeKqiYh2GY?si=Dxv4Q-pKgVSEumfy"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-                <iframe width="450" height="315" src="https://www.youtube.com/embed/2LSYfx3zD1c?si=ac8N9gBK4AIk_287"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-
-        </section>
-
+          <iframe
+            width="450"
+            height="315"
+            src="https://www.youtube.com/embed/2LSYfx3zD1c?si=ac8N9gBK4AIk_287"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
     </main>
-</body>
-
+  </body>
 </html>

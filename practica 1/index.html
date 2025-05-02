@@ -1,187 +1,174 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-with, initial-scale=1.0" />
     <title>Comida Típica de El Salvador</title>
     <style>
-        body {
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            font-size: 1.2rem;
-            margin: 0;
-            padding: 0;
-            background: #076585;
-            /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #fff, #61a1b6);
-            /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #fff, #95deeb);
-            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-size: 1.2rem;
+        margin: 0;
+        padding: 0;
+        background-color: #f7f7f5;
+      }
 
-        }
+      header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+      }
 
-        header {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 1rem;
+      header nav {
+        width: 100%;
+        background-color: #425351;
+      }
 
-        }
+      header nav ul {
+        list-style-type: none;
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2.5rem;
+      }
 
-        header nav {
-            background: #9fecff;
-            /* fallback for old browsers */
-            background: -webkit-linear-gradient(to left, #BDFFF3, #a4dbf1);
-            /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to left, #BDFFF3, #97e7f1);
-            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-            width: 100%; 
+      header nav ul li a {
+        color: #fff;
+        text-decoration: none;
+      }
 
+      #banner {
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        margin-top: 30px;
+      }
 
-        }
+      #banner img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
 
-        header nav ul {
-            list-style-type: none;
-            padding-left: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 2.5rem;
-        }
+      main {
+        width: 80%;
+        margin: 3rem auto;
+      }
 
-        header nav ul li a {
-            text-decoration: none;
-        }
+      #images {
+        margin: 3rem 0;
+      }
 
-        #banner {
-            width: 100%;
-            height: 400px;
-            overflow: hidden;
-            margin-top: 30px;
-        }
+      #images h2 {
+        text-align: center;
+      }
 
-        #banner img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
+      #images div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
 
-        main {
-            width: 80%;
-            margin: 3rem auto;
-        }
+      #images div img {
+        width: 400px;
+        height: 300px;
+        object-fit: cover;
+      }
 
-        #images {
-            margin: 3rem 0;
-        }
+      #videos h2 {
+        text-align: center;
+      }
 
-        #images h2 {
-            text-align: center;
-        }
+      #videos div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
 
-        #images div {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        #images div img {
-            width: 400px;
-            height: 300px;
-            object-fit: cover;
-        }
-
-        #videos h2 {
-            text-align: center;
-        }
-
-        #videos div {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        #videos div video {
-            width: 800px;
-            height: 500px;
-        }
+      #videos div video {
+        width: 800px;
+        height: 500px;
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="./index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="./pages/pupusas.html">Pupusas</a>
-
-                </li>
-                <li>
-                    <a href="./pages/tamales.html">Tamales</a>
-                </li>
-                <li>
-                    <a href="./pages/pasteles.html">Pasteles</a>
-
-                </li>
-                <li>
-                    <a href="./pages/Yuca.html">Yuca</a>
-                </li>
-                <li>
-                    <a href="./pages/canoas.html">Canoas</a>
-                </li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li>
+            <a href="./index.html">Inicio</a>
+          </li>
+          <li>
+            <a href="./pages/pupusas.html">Pupusas</a>
+          </li>
+          <li>
+            <a href="./pages/tamales.html">Tamales</a>
+          </li>
+          <li>
+            <a href="./pages/pasteles.html">Pasteles</a>
+          </li>
+          <li>
+            <a href="./pages/Yuca.html">Yuca</a>
+          </li>
+          <li>
+            <a href="./pages/canoas.html">Canoas</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <section id="banner">
-        <img src="./images/banner.png" alt="banner" />
+      <img src="./images/banner.png" alt="banner" />
     </section>
 
     <main>
-        <section>
-            <h1>Comida Tipica de El Salvador</h1>
-            <p>
-                La comida típica de El Salvador <strong>es una expresión de su cultura, tradición y sabor</strong>. Cada
-                platillo muestra la riqueza de sus raíces indígenas y la fusión con la cocina de la colonia, dando lugar
-                a una gastronomía única y llena de identidad. Desde las tradicionales pupusas hasta los tamales, la
-                cocina salvadoreña es una invitación a disfrutar de sabores auténticos y recetas que han pasado de
-                generación en generación. En este sitio, te llevaremos a conocer los platos más representativos del
-                país, su historia y sus ingredientes.
+      <section>
+        <h1>Comida Tipica de El Salvador</h1>
+        <p>
+          La comida típica de El Salvador
+          <strong>es una expresión de su cultura, tradición y sabor</strong>.
+          Cada platillo muestra la riqueza de sus raíces indígenas y la fusión
+          con la cocina de la colonia, dando lugar a una gastronomía única y
+          llena de identidad. Desde las tradicionales pupusas hasta los tamales,
+          la cocina salvadoreña es una invitación a disfrutar de sabores
+          auténticos y recetas que han pasado de generación en generación. En
+          este sitio, te llevaremos a conocer los platos más representativos del
+          país, su historia y sus ingredientes.
+        </p>
+        <h2>Historia de la Gastronomía Salvadoreña</h2>
+        <p>
+          La gastronomía salvadoreña se remonta a las antiguas civilizaciones
+          indígenas, especialmente la cultura pipil, que basaba su alimentación
+          en ingredientes como el maíz, el frijol, el ayote y hierbas locales.
+          Estos elementos formaban la base de una cocina sencilla pero
+          nutritiva. Con la llegada de los españoles en el siglo XVI, se
+          introdujeron nuevos ingredientes como el trigo, el arroz, productos
+          lácteos y diversas carnes. Esta mezcla dio origen a una gastronomía
+          mestiza, donde recetas tradicionales como las pupusas, tamales y sopas
+          reflejan siglos de historia y cultura.
+        </p>
+      </section>
 
-            </p>
-            <h2>Historia de la Gastronomía Salvadoreña</h2>
-            <p>
+      <section id="images">
+        <h2>Imágenes</h2>
+        <div>
+          <img src="./images/imagen_pupusas.jpg" alt="Pupusas" />
+          <img src="./images/imagen_tamales.png" alt="Tamales" />
+          <img src="./images/imagen_pasteles.jpg" alt="Pasteles" />
+        </div>
+      </section>
 
-                La gastronomía salvadoreña se remonta a las antiguas civilizaciones indígenas, especialmente la cultura
-                pipil, que basaba su alimentación en ingredientes como el maíz, el frijol, el ayote y hierbas locales.
-                Estos elementos formaban la base de una cocina sencilla pero nutritiva.
-
-                Con la llegada de los españoles en el siglo XVI, se introdujeron nuevos ingredientes como el trigo, el
-                arroz, productos lácteos y diversas carnes. Esta mezcla dio origen a una gastronomía mestiza, donde
-                recetas tradicionales como las pupusas, tamales y sopas reflejan siglos de historia y cultura.
-            </p>
-        </section>
-
-        <section id="images">
-            <h2>Imágenes</h2>
-            <div>
-                <img src="./images/imagen_pupusas.jpg" alt="Pupusas" />
-                <img src="./images/imagen_tamales.png" alt="Tamales" />
-                <img src="./images/imagen_pasteles.jpg" alt="Pasteles" />
-
-            </div>
-        </section>
-
-        <section id="videos">
-            <h2>Videos</h2>
-            <div>
-                <video src="./videos/comida_pincipal.mp4" controls autoplay></video>
-            </div>
-        </section>
+      <section id="videos">
+        <h2>Videos</h2>
+        <div>
+          <video src="./videos/comida_pincipal.mp4" controls autoplay></video>
+        </div>
+      </section>
     </main>
-</body>
-
+  </body>
 </html>
