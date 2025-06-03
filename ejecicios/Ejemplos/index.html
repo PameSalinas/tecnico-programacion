@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario Completo</title>
+    <style>
+      form {
+        width: 60%;
+        margin: 30px auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      input,
+      textarea,
+      select {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+      }
+      label {
+        font-size: 16px;
+        font-weight: bold;
+      }
+      button {
+        background-color: #4caf50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      button:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Formulario de Registro</h2>
+    <form action="/submit_form" method="GET">
+      <label for="first_name">Nombre:</label>
+      <input type="text" id="first_name" name="first_name" required />
+
+      <label for="last_name">Apellido:</label>
+      <input type="text" id="last_name" name="last_name" required />
+
+      <label for="email">Correo Electrónico:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="gender">Género:</label>
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">Masculino</label>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Femenino</label>
+
+      <label for="newsletter">Suscribirse al boletín:</label>
+      <input type="checkbox" id="newsletter" name="newsletter" />
+
+      <label for="country">País:</label>
+      <select id="country" name="country">
+        <option value="spain">España</option>
+        <option value="mexico">México</option>
+        <option value="colombia">Colombia</option>
+      </select>
+
+      <label for="message">Mensaje:</label>
+      <textarea
+        id="message"
+        name="message"
+        rows="10"
+        cols="10"
+        placeholder="Escribe tu mensaje aquí..."
+      ></textarea>
+      <label for="color">Elige un color</label>
+      <input type="color" id="color" name="color" value="#ff0000" />
+      <label for="file">Selecciona un archivo</label>
+      <input type="file" id="file" name="file"/>
+      <label for="fecha">fecha</label>
+      <input type="date" id="fecha" name="fecha" />
+      <label for="datetime">fecha y hora</label>
+      <input type="datetime-local" id="datetime" name="datetime" />
+
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>

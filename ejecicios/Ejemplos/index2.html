@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabla Completa en HTML</title>
+    <style>
+      table {
+        width: 80%;
+        border-collapse: collapse;
+        margin: 20px auto;
+      }
+
+      th,
+      td {
+        padding: 12px;
+        text-align: left;
+        border: 1px solid #ddd;
+      }
+
+      th {
+        background-color: #f2f2f2;
+      }
+
+      img {
+        width: 100px;
+        height: 100px;
+      }
+
+      caption {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h2>Tabla Completa de Productos</h2>
+    
+    <table>
+      <caption>
+        Listado de Productos
+      </caption>
+      <thead>
+        <tr>
+          <th scope="col">ID</th>
+          <th scope="col">Producto</th>
+          <th scope="col">Precio</th>
+          <th scope="col">Imagen</th>
+          <th scope="col">Acción</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Smartphone</td>
+          <td>$499.99</td>
+          <td><img src="./smartphone.webp" alt="Smartphone" /></td>
+          <td><a href="https://example.com" target="_blank">Comprar</a></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Laptop</td>
+          <td>$999.99</td>
+          <td><img src="./lapton.avif" alt="Laptop" /></td>
+          <td><a href="https://example.com" target="_blank">Comprar</a></td>
+        </tr>
+        <tr>
+          <td rowspan="2">3</td>
+          <td colspan="2">Cámara Digital</td>
+          <td><img src="./camara.jpg" alt="Cámara" /></td>
+          <td><a href="https://example.com" target="_blank">Comprar</a></td>
+        </tr>
+        <tr>
+          <td colspan="2">Canon EOS 1500D</td>
+          <td><img src="./camaraa.jpg" alt="Cámara" /></td>
+          <td><a href="https://example.com" target="_blank">Comprar</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
