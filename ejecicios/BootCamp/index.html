@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta chaset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro Bootcamp | DevBoot</title>
+    <meta
+      name="description"
+      content="Inscríbete al Bootcamp de desarrollo web y transforma tu carrera profesional. Aprende de expertos y accede a oportunidades laborales."
+    />
+    <link rel="stylesheet" href="./estilos.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Inscríbete al Bootcamp de Desarrollo web</h1>
+      <p>Forma parte del próximo grupo de desarrolladores profesionales.</p>
+    </header>
+    <main>
+      <section>
+        <img
+          src="./imagenesbootcamp/Diseño-Web-1024x493.jpg"
+          alt="Banner desarrollo web"
+        />
+      </section>
+      <section>
+        <h2>Beneficios del Bootcamp</h2>
+        <ul>
+          <li>Clases en vivo y grabadas</li>
+          <li>Mentoría personalizada</li>
+          <li>Certificado oficial</li>
+          <li>Acceso a bolsa de trabajo</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Formulario de Registro</h2>
+        <form>
+          <label for="nombre">Nombre Completo:</label>
+          <input type="text" id="nombre" name="nombre" required />
+
+          <label for="email">Correo Electrónico:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="noivel">Nivel de Experiencia:</label>
+          <select id="nivel" name="nivel">
+            <option value="principiante">Principiante</option>
+            <option value="intermedio">Intermedio</option>
+            <option value="avanzado">Avanzado</option>
+          </select>
+          <label for="mensaje">¿Qué esperas aprender?</label>
+          <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+
+          <label>
+            <input type="checkbox" required /> Acepto los
+            <a herf="/">términos y condiciones</a>
+          </label>
+          <button type="submit">Enviar Registro</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>© 2025 DevBoot. Todos los derechos reservados.</p>
+    </footer>
+  </body>
+</html>

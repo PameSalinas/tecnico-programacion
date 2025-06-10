@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+main {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.tarjeta-pefil {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(00.0. 0.1);
+  overflow: hidden;
+  text-align: center;
+}
+
+.foto-perfil {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  margin-top: -60px;
+  object-fit: cover;
+}
+
+.cabecera {
+  background-color: #4a90e2;
+  height: 100px;
+}
+
+.cuerpo {
+  padding: 20px;
+}
+
+.cuerpo h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0 5px;
+  color: #333;
+}
+
+
+.cuerpo p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.cuerpo h1 + p {
+  font-size: 16px;
+  color: #f00;
+  margin: 0 0 15px;
+  line-height: normal;
+}
+
+/*
+.nombre-usuario {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0 5px;
+    color: #333;
+}
+
+.profesion-usuario {
+    font-size: 16px;
+    color: #777;
+    margin: 0 0 15px;
+}
+
+.biografia-usuario {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+} 
+*/
+.pie {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  border-top: 1px solid #eee;
+  background-color: #f8f9fa;
+}
+
+.enlace-social {
+  text-decoration: none;
+  color: #fff;
+  background-color: #4a90e2;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.enlace-social:hover {
+  background-color: #357abd;
+}
