@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mi Blog Personal | Publicaciones</title>
+        <meta name="author" content="Pamela Salinas" />
+        <meta 
+        name="description" 
+        content="Un blog personal para compartir publicaciones " />
+        <meta 
+        name="keywords"
+         content="blog, personal, publicaciones, Pamela Salinas" />
+
+        <link rel="icon" href="../imagenes/favicon.png" type="image/png" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+        href="https://fonts.googleapis.com/css2?family=lato:wght@300;400&display=swap=swap"
+         rel="stylesheet" />
+
+        <link rel="stylesheet" href="../css/principal.css" />
+        <link rel="stylesheet" href="../css/publicaciones.css" />
+
+        <script
+        defer 
+        src="https://cdn.jsdeliver.net/npm/@emailjs/browser@3/dist/email.min.js" ></script>
+        <script defer src="../js/comentarios.js"></script>
+        <script defer src="../js/notificaciones.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="/">Mi Blog Personal</a>
+                <ul>
+                    <li>
+                        <a href="/">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="./sobre-mi.html">Sobre mi</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>Todas Mis Publicaciones</h1>
+            <section class="publicaciones">
+                <article>
+                    <h2>Publicación 1</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta quidem omnis doloremque optio, quis voluptatibus earum a debitis soluta molestiae minus ab dolorem voluptatum ea veniam sit in quae natus cupiditate eius necessitatibus assumenda? Maxime libero vel id, praesentium, quam vero corrupti ratione beatae perspiciatis tenetur facilis accusamus aspernatur eaque nam laboriosam dignissimos deleniti, laudantium modi ducimus optio.</p>
+                    <img
+                    src="../imgenes/publicacion/publicacion1.jpg"
+                    loading="lazy"
+                    alt="Imagen de publicacion 1" />
+
+                    <div class="comentarios" data-publicacion-id="publicación 1"  >
+                        <div>
+                        <h3>Comentarios</h3>
+
+                        <button>Ocultar</button>
+                        </div>
+
+                        <ul class="Lista-comentarios"></ul>
+
+                        <h3>Deja un comentaio</h3>
+                        <form class="formulario-comentario" >
+                            <input 
+                            type=text
+                            name="coreo"
+                            placeholder="Tu correo"
+                            required
+                            />
+                            <textarea
+                            name="comentario"
+                            placeholder="Escribe tu comentario"
+                            required
+                            ></textarea>
+                            <button type="submit">Enviar</button>
+                        </form>
+                    </div>
+                </article>
+                
+                <article>
+                    <h2>Publicación 2</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis laboriosam unde possimus perferendis commodi. Sapiente quisquam aperiam assumenda! Ullam labore sapiente quidem minus! Ipsam vero nihil, molestias unde harum laboriosam placeat nesciunt rem dolorem itaque sit voluptatem accusantium praesentium ipsum eos recusandae, suscipit cum distinctio. Dolore eos placeat nemo totam assumenda eius nisi est quos quod voluptate repudiandae ipsam magni nihil, voluptas voluptatum?
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora fugit est eius voluptates fuga cumque ut alias. Ad temporibus velit, laudantium magni corporis voluptate sapiente veritatis minima sed molestias nobis cumque asperiores harum aspernatur voluptatum blanditiis magnam, nam officia, rem provident! Earum sapiente mollitia exercitationem id iure voluptatibus, aliquid officia est quibusdam! Ipsum odio provident autem inventore fugiat? Placeat, quis? Minus excepturi optio, neque maxime facere laborum similique aliquid vitae laudantium, eius quisquam doloribus at perferendis id sunt mollitia, nihil non error magnam aspernatur debitis. Quas, corporis modi.</p>
+               
+                <img 
+                src="../imagenes/publicacion/publicacion2.jpg"
+                loading="lazy"
+                alt="Imagen de publicacion 2" />
+
+                <div class="comentarios" data-publicacion-id="publicación 2" >
+                    <div>
+                        <h3>Comentarios</h3>
+                        <button>Ocultar</button>
+                    </div>
+
+                    <ul class="Lista-comentarios"></ul>
+
+                    <h3>Deja un comentaio</h3>
+                    <form class="formulario-comentario">
+                        <input
+                        type="text"
+                        name="nombre"
+                        placeholder="Tu nombre"
+                        required
+                        />
+                        <input 
+                        type="email"
+                        name="correo"
+                        placeholder="Tu correo"
+                        required
+                        />
+                        <textarea
+                        name="comentario"
+                        placeholder="Escribe tu comentario"
+                        required
+                        ></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </article>
+
+            <article>
+                <h2>Publicación 3</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis minima deleniti explicabo sint rem magni nostrum eum cumque laboriosam. Repellat aperiam ut velit consequatur tempora minus cupiditate maiores asperiores quod error facilis, ex blanditiis aliquam laboriosam nostrum in, fugiat commodi dignissimos, accusantium nisi excepturi? Quod eos magni magnam quibusdam optio sapiente dolores voluptatibus ad totam repudiandae qui sunt, accusamus tenetur deserunt illo culpa voluptatum molestiae maxime, quo quis! Consequuntur nulla nostrum quasi minus, deleniti quisquam veniam neque praesentium!</p>
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit ipsa accusamus dignissimos possimus tempore dolorem quas.</p>
+                <img
+                src="../imagenes/publicaciones/publicacion3.jpg"
+                loading="lazy"
+                alt="Imagen de publicacion 3" />
+
+                <div class="comentarios" data-publicacion-id="publicación 3" >
+                    <div>
+                        <h3>Comentarios</h3>
+                        <button>Ocultar</button>
+                    </div>
+
+                    <ul class="Lista-comentarios"></ul>
+                    <h3>Deja un comentaio</h3>
+
+                    <form class="formulario-comentario">
+                        <input
+                        type="text"
+                        name="nombre"
+                        placeholder="Tu nombre"
+                        required
+                        />
+                        <input
+                        type="email"
+                        name="correo"
+                        placeholder="Tu correo"
+                        required
+                        />
+                        <textarea
+                        name="comentario"
+                        placeholder="Escribe tu comentario"
+                        required                
+                        ></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </article>
+
+            <article>
+                <h2>Publicación 4</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptatum. Quisquam, cumque. Doloribus, voluptatum. Quisquam, cumque. Doloribus, voluptatum. Quisquam, cumque. Doloribus, voluptatum. Quisquam, cumque.</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptatum. Quisquam, cumque. Doloribus, voluptatum. Quisquam, cumque. Doloribus, voluptatum. Quisquam, cumque.</p>
+
+                <img
+                src="../imagenes/publicaciones/publicacion4.jpg"
+                loading="lazy"  
+                alt="Imagen de publicacion 4" />
+
+                <div class="comentarios" data-publicacion-id="publicación 4" >
+                    <div>
+                        <h3>Comentarios</h3>
+                        <button>Ocultar</button>
+                    </div>
+
+                    <ul class="Lista-comentarios"></ul>
+                    <h3>Deja un comentaio</h3>
+
+                    <form class="formulario-comentarios">
+                        <input
+                        type="text"
+                        name="nombre"
+                        placeholder="Tu nombre"
+                        required
+                        />
+                        <input
+                        type="email"
+                        name="correo"
+                        placeholder="Tu correo"
+                        required
+                        />
+                        <textarea
+                        name="comentario"
+                        placeholder="Escribe tu comentario"
+                        required
+                        ></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </article>
+
+            <article>
+                <h2>Publicación 5</h2>
+
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil laudantium corrupti sed iure, dolorum, omnis error accusantium laboriosam nostrum asperiores a velit hic quibusdam rerum molestiae ratione animi possimus reprehenderit fugiat dolores beatae, et unde? Voluptas excepturi optio, quod repudiandae eos porro. Quasi, nam fugit?</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, officiis, ducimus ex similique voluptas voluptatum, tenetur velit quos nemo animi expedita aspernatur quis? Facilis ipsum repudiandae culpa vitae provident voluptatum, architecto odio adipisci?</p>
+
+                <img
+                src="../imagenes/publicaciones/publicacion5.jpg"
+                loading="lazy"  
+                alt="Imagen de publicacion 5" />
+
+                <div class="comentarios" data-publicacion-id="publicación 5" >
+                    <div>
+                        <h3>Comentarios</h3>
+                        <button>Ocultar</button>
+                    </div>
+
+                    <ul class="Lista-comentarios"></ul>
+                    <h3>Deja un comentaio</h3>
+
+                    <form class="formulario-comentarios">
+                        <input
+                        type="text"
+                        name="nombre"
+                        placeholder="Tu nombre"
+                        required
+                        />
+                        <input
+                        type="email"
+                        name="correo"
+                        placeholder="Tu correo"
+                        required
+                        />
+                        <textarea
+                        name="comentario"
+                        placeholder="Escribe tu comentario"
+                        required
+                        ></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </article>
+
+            <article>
+                <h2>Publicación 6</h2>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptatum. Quisquam, cumque. Doloribus, voluptatum. Quisquam, cumque. Doloribus, voluptatum. Quisquam, cumque.</p>
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod quo, adipisci possimus consequatur earum dicta, ipsum labore temporibus commodi nihil cumque odio?</p>
+
+                <img
+                src="../imagenes/publicaciones/publicacion6.jpg"
+                loading="lazy"
+                alt="Imagen de publicacion 6" />
+
+                <div class="comentarios" data-publicacion-id="publicación 6" >
+                    <div>
+                        <h3>Comentarios</h3>
+                        <button>Ocultar</button>
+                    </div>
+
+                    <ul class="Lista-comentarios"></ul>
+                    <h3>Deja un comentaio</h3>
+
+                    <form class="formulario-comentarios">
+                        <input
+                        type="text"
+                        name="nombre"
+                        placeholder="Tu nombre"
+                        required
+                        />
+                        <input
+                        type="email"
+                        name="correo"
+                        placeholder="Tu correo"
+                        required
+                        />
+                        <textarea
+                        name="comentario"
+                        placeholder="Escribe tu comentario"
+                        required
+                        ></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </article>
+            </section>
+
+            <div class="contenedor-toast" id="contenedor-toast"></div>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 | Pamela Salinas</p>
+        </footer>
+    </body>
+</html>
