@@ -88,3 +88,220 @@
     background-color: #fefefe;
     transition:border 0.2s ease;
 }
+
+.formulario-comentario input:focus,
+.formulario-comentario textarea:focus {
+    outline: none;
+    border-color: var(--color-accent);
+    box-shadow: 0 0 0 2px #ff6f6125;
+}
+
+.formulario-comentario textarea {
+    resize: vertical;
+    min-height: 120px; 
+}
+
+.formulario-comentario button {
+    align-self: flex-end;
+    padding: 0.7rem 1.4rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-white);
+    background-color: var(--color-accent);
+    border: none;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.formulario-comentario button:hover {
+    background-color: #e55c4e;
+}
+
+.contenedor-toast {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: calc(100%- 40px);
+    max-width: 400px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 15px;
+    z-index: 1000;
+   
+}
+
+.toast {
+     background-color: #ccc;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    overflow: hidden;
+    animation-name: apertura;
+    animation-duration: 200ms;
+    animation-timing-function: ease-out;
+    position: relative;
+}
+
+.toast.exito {
+    background: #3ab65c;
+}
+
+.toast.error {
+    background: #bf333b;
+}
+
+.toast .contenido {
+    display: grid;
+    grid-template-columns: 30px auto;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    color: #fff;
+}
+
+.toast.icono{
+    color: rgba(0, 0, 0, 0.4);
+}
+
+
+.toast .titulo {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+    letter-spacing: 1.2px;
+}   
+
+.toast .btn-cerrar {
+    background: rgba(0, 0, 0, 0.1);
+    border: none;
+    cursor: pointer;
+    padding: 0px 5px;
+    transition: 0.3s ease all;
+}
+
+.toast .btn-cerrar:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.toast .btn-cerrar .icono {
+    width: 20px;
+    height: 20px;
+   color: #fff;
+}
+
+@keyframes apertura {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.toast.cerrando {
+    animation-name: cierre;
+    animation-duration: 200ms;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes cierre {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(calc(100% + 40px));
+    }
+}
+
+.toast.autoCerrie ::after {
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    animation-name: autoCierre;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes autoCierre {
+    from {
+        width: 100%;
+    }
+    to {
+        width: 0;
+    }
+}
+
+@media  (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+        text-align: center;
+    }
+}
+
+main {
+    padding: 0 1rem 2rem;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.publicaciones article {
+    padding: 1.5rem 1rem;
+}
+
+.comentarios {
+    padding: 1.2rem;
+}
+
+.formulario-comentario  button{
+   width: 100%;
+   align-self: center;
+}
+
+.contenedor-toast {
+    right:10px;
+    bottom: 10px;
+    width: calc(100% - 20px);
+    max-width: none;
+}
+
+.toast {
+    border-radius: 8px;
+}
+
+.toast .contenido {
+   padding: 12px;
+   gap: 10px;
+}
+
+.toast .titulo {
+    font-size: 1rem;
+}
+
+@media (max-width: 400px) {
+    .contenedor-toast {
+        bottom: 5px;
+        right: 5px;
+        width: calc(100% - 10px);
+    }
+}
+
+.toast .contenido {
+    grid-template-columns: 254px auto;
+    padding: 10px;
+}
+
+.formulario-comentaio button {
+    padding: 0.5rem 1rem;
+}
