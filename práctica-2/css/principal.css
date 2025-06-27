@@ -1,173 +1,174 @@
-:root  {
-    --color-bg:#f7f9fa;
-    --color-primary: #2d3a4b;
-    --color-secondary: #4e5d6c;
-    --color-accent: #ff6f61;
-    --color-white:#ffffff;
-    --color-grey:#e0e6ed;
-    --color-footer: #222b36;
+:root {
+  --color-bg: #f7f9fa;
+  --color-primary: #2d3a4b;
+  --color-secondary: #4e5d6c;
+  --color-accent: #ff6f61;
+  --color-white: #ffffff;
+  --color-grey: #e0e6ed;
+  --color-footer: #222b36;
 
-    --radius-sm:0.5rem;
-    --radius-md:1rem;
-    --radius-lg:1.5rem;
+  --radius-sm: 0.5rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.5rem;
 
-    --shadow-sm:0 2px 8px rgba(44, 62, 80, 0.08);
-    --shadow-md:0 4px 18px rgba(44, 62, 80, 0.12);
-    --shadow-lg:0 8px 32px rgba(44, 62, 80, 0.15);
+  --shadow-sm: 0 2px 8px rgba(44, 62, 80, 0.08);
+  --shadow-md: 0 4px 18px rgba(44, 62, 80, 0.12);
+  --shadow-lg: 0 8px 32px rgba(44, 62, 80, 0.15);
 }
 
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: "Lato", Arial, sans-serif;
-    background-color: var(--color-bg);
-    color: var(--color-primary);
-    min-height: 100vh;
-    line-height: 1.6;
+  font-family: "Lato", Arial, sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-primary);
+  min-height: 100vh;
+  line-height: 1.6;
 }
 
 header {
-    background-color: var(--color-primary);
-    color: var(--color-white);
-    box-shadow: var(--shadow-md);
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  box-shadow: var(--shadow-md);
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1000px;
-    padding: 1.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1.5rem 2rem;
 }
 
 nav > a {
-    font-size: 1.8em;
-    font-weight: 800;
-    color: var(--color-accent);
-    text-decoration: none;
-    letter-spacing: 1px;
-    transition: color 0.2s ease;
+  font-size: 1.8em;
+  font-weight: 800;
+  color: var(--color-accent);
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: color 0.2s ease;
 }
 
 nav ul {
-    display: flex;
-    gap:2rem;
-    list-style: none;
+  display: flex;
+  gap: 2rem;
+  list-style: none;
 }
 
 nav ul li a {
-    color: var(--color-white);
-    font-weight: 500;
-    font-size: 1.1em;
-    text-decoration: none;
-    transition: color 0.25s ease;
+  color: var(--color-white);
+  font-weight: 500;
+  font-size: 1.1em;
+  text-decoration: none;
+  transition: color 0.25s ease;
+  cursor: pointer;
 }
 
 nav ul li a:hover {
-    color: var(--color-accent);
+  color: var(--color-accent);
 }
 
 main {
-    max-width: 1000px;
-    margin: 3rem auto;
-    padding: 0 2rem 2rem;
+  max-width: 1000px;
+  margin: 3rem auto;
+  padding: 0 2rem 2rem;
 }
 
 h1 {
-    font-size: 2.5em;
-    font-weight: 800;
-    color: var(--color-primary);
-    margin-bottom: 2.2rem;
-    letter-spacing: 0.5px;
+  font-size: 2.5em;
+  font-weight: 800;
+  color: var(--color-primary);
+  margin-bottom: 2.2rem;
+  letter-spacing: 0.5px;
 }
 
 .publicaciones {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2.5rem;
 }
 
-.publicaciones article  {
-    background-color: var(--color-white);
-    border-radius: var(--radius-md);
-    box-shadow: var(--shadow-md);
-    padding: 2rem, 1.5rem;
-    display: flex;
-    flex-direction: column;
-    transition: transform 0.2s ease;
+.publicaciones article {
+  background-color: var(--color-white);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .publicaciones article:hover {
-    transform: translateY(-6px) scale(1.02);
-    box-shadow: var(--shadow-lg);
-    
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: var(--shadow-lg);
 }
 
 .publicaciones article a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .publicaciones article h2 {
-    font-size: 1.5em;
-    font-weight: 700;
-    color: var(--color-accent);
-    margin-bottom: 0.8rem;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: var(--color-accent);
+  margin-bottom: 0.8rem;
 }
 
 .publicaciones article p {
-    color: var(--color-secondary);
-    font-size: 1em;
-    margin-bottom: 1.2rem;
+  color: var(--color-secondary);
+  font-size: 1em;
+  margin-bottom: 1.2rem;
 }
 
 .publicaciones article img {
-    width: 100%;
-    max-height: 280px;
-    border-radius: var(--radius-sm);
-    box-shadow: var(--shadow-sm);
+  width: 100%;
+  max-height: 280px;
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-sm);
 }
 
 footer {
-    background-color: var(--color-footer);
-    color: var(--color-white);
-    text-align: center;
-    padding: 1.5rem 0;
-    font-size: 0.95rem;
-    letter-spacing: 0.5px;
-    margin-top: auto;
+  background-color: var(--color-footer);
+  color: var(--color-white);
+  text-align: center;
+  padding: 1.5rem 0;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+  margin-top: auto;
 }
 
 @media (max-width: 600px) {
-    nav {
-        flex-direction: column;
-        gap:1rem;
-        padding: 1rem;
-        text-align: center;
-    }
+  nav {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    text-align: center;
+  }
 
-    nav ul {
-        flex-direction: column;
-        gap: 1rem;
-    }
+  nav ul {
+    flex-direction: column;
+    gap: 1rem;
+  }
 
-    main {
-        padding: 0 1rem 2rem;
-    }
+  main {
+    padding: 0 1rem 2rem;
+  }
 
-    h1 {
-        font-size: 2em;
-        text-align: center;
-    }
-    .publicaciones  {
-        grid-template-columns: 100%;
-    }
-    .publicaciones article {
-        padding: 1.5rem 1rem;
-    }
+  h1 {
+    font-size: 2em;
+    text-align: center;
+  }
+  .publicaciones {
+    grid-template-columns: 100%;
+  }
+  .publicaciones article {
+    padding: 1.5rem 1rem;
+  }
 }
