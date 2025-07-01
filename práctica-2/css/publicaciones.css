@@ -160,7 +160,7 @@
   color: #fff;
 }
 
-.toast.icono {
+.toast .icono {
   color: rgba(0, 0, 0, 0.4);
 }
 
@@ -216,7 +216,7 @@
   }
 }
 
-.toast.autoCerrie ::after {
+.toast.autoCierre::after {
   content: "";
   width: 100%;
   height: 4px;
