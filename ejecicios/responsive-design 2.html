@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Design 2</title>
+    <style>
+      .card {
+        display: flex;
+        width: 80%;
+        margin: auto;
+        background-color: oklch(0.9612 0 0);
+        padding: 1rem;
+        border-radius: 10px;
+      }
+
+      .card img {
+        width: 150px;
+        height: auto;
+        margin-right: 1rem;
+      }
+
+      @media (max-width: 768px) {
+        .card {
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+        }
+
+        .card img {
+          margin-right: 0;
+          margin-bottom: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section class="card">
+      <img
+        src="https://images.vexels.com/media/users/3/140236/isolated/preview/20d26c1064c9a7a4ccfc85820529b3f1-perfil-de-mujer-avatar-3.png"
+        alt="imagen de foto de perfil"
+      />
+      <div class="info">
+        <h2>Pamela</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+          laudantium doloremque optio. Autem, natus, ipsam deserunt aliquid
+          consequuntur, nulla nesciunt veritatis ex nihil veniam sunt velit
+          vitae neque aperiam amet!
+        </p>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur
+          ad placeat voluptate provident ipsam porro alias, voluptates nemo,
+          maiores accusamus nisi nam illo possimus. Ex natus aperiam tenetur
+          iste maiores quisquam reprehenderit sit ratione earum voluptas
+          sapiente pariatur, et, numquam necessitatibus accusamus. Pariatur
+          earum, blanditiis quidem cum perspiciatis quaerat provident?
+        </p>
+      </div>
+    </section>
+  </body>
+</html>

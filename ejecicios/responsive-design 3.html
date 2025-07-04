@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Design 3</title>
+    <style>
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        padding: 1rem;
+      }
+
+      .col {
+        padding: 0.5rem;
+        text-align: center;
+      }
+
+      .col img {
+        border-radius: 10px;
+        width: 100%;
+        height: auto;
+      }
+
+      @media (width < 900px) {
+        .grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      @media (width < 600px) {
+        .grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section class="grid">
+      <div class="col">
+        <img src="https://http.cat/103" alt="" />
+      </div>
+      <div class="col">
+        <img src="https://http.cat/400" alt="" />
+      </div>
+      <div class="col">
+        <img src="https://http.cat/496" alt="" />
+      </div>
+    </section>
+  </body>
+</html>
