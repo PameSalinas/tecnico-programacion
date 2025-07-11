@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design 4</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            background-color: #333;
+            color: #fff;
+            padding: 1.5rem;
+        }
+
+        .card {
+            display: flex;
+            flex-wrap: nowrap;
+            background-color: #eee;
+            padding: 1rem;
+            border-radius: 10px;
+        }
+
+        .card img {
+            width: 300px;
+            margin-right: 1rem;
+        }
+
+        .card .info {
+            align-self: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div>Inicio</div>
+            <div>Servicios</div>
+            <div>Contactos</div>
+        </nav>
+    </header>
+
+    <main>
+        <article class="card" >
+            <img src="https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaPE/132171425_01/w=800,h=800,fit=pad" alt="imagen de producto" />
+            <div class="info" >
+                <h2>Camisa para hombre</h2>
+                <p>
+                    Camisa de algodón 100% con un diseño moderno y elegante. Disponible en varias tallas y colores.
+                </p>
+                <button>Comprar</button>
+            </div>
+        
+        </article>
+    </main>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galería de imágenes</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        padding: 20px;
+        background: #12c2e9; /* fallback for old browsers */
+        background: -webkit-linear-gradient(
+          to right,
+          #f64f59,
+          #c471ed,
+          #12c2e9
+        ); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(
+          to right,
+          #f64f59,
+          #c471ed,
+          #12c2e9
+        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      }
+
+      .title {
+        color: white;
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 2rem;
+        color: white;
+      }
+
+      .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+      }
+
+      .gallery img {
+        width: 100%;
+        max-width: 300px;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease;
+      }
+
+      .gallery img:hover {
+        transform: scale(1.05);
+      }
+
+      @media (width < 768px) {
+        .gallery {
+            flex-direction: column;
+          gap: 15px;
+        }
+
+       
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1 class="title">Galería de Imágenes</h1>
+      <section class="gallery">
+        <img
+          src="https://images.pexels.com/photos/16264583/pexels-photo-16264583.jpeg"
+          alt=""
+        />
+        <img
+          src="https://images.pexels.com/photos/6272181/pexels-photo-6272181.jpeg"
+          alt=""
+        />
+        <img
+          src="https://images.pexels.com/photos/5490707/pexels-photo-5490707.jpeg"
+          alt=""
+        />
+        <img
+          src="https://images.pexels.com/photos/32701453/pexels-photo-32701453.jpeg"
+          alt=""
+        />
+        <img
+          src="https://images.pexels.com/photos/20340988/pexels-photo-20340988.jpeg"
+          alt=""
+        />
+        <img
+          src="https://images.pexels.com/photos/8343348/pexels-photo-8343348.jpeg"
+          alt=""
+        />
+      </section>
+    </main>
+  </body>
+</html>
