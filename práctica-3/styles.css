@@ -30,7 +30,7 @@ body {
 
 .calculator-container {
   background: rgba(255, 255, 255, 0.95);
-  border-radius: var(--border--radius);
+  border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
   padding: 2.5rem;
   width: 100%;
@@ -54,7 +54,7 @@ h1::after {
   position: absolute;
   bottom: 0;
   left: 50%;
-  transform: traslateX(-50%);
+  transform: translateX(-50%);
   width: 60px;
   height: 3px;
   background: var(--primary-color);

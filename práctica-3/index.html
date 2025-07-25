@@ -1,51 +1,51 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculadora</title>
     <link rel="stylesheet" href="./styles.css" />
-    <link 
-    href="https://fonts.googleapis.com/css2?
+    <link
+      href="https://fonts.googleapis.com/css2?
     family=Poppins:wght@300;400;500;600&display=swap
-    rel=stylesheet" 
+    rel=stylesheet"
     />
-</head>
-<body>
-   <main class="calculadora-container">
-    <h1>Calculadora</h1>
+  </head>
+  <body>
+    <main class="calculator-container">
+      <h1>Calculadora</h1>
 
-    <div class="input-group">
+      <div class="input-group">
         <input
-        type="number"
-        id="num1"
-        class="number-input"
-        placeholder="Primer número"
+          type="number"
+          id="num1"
+          class="number-input"
+          placeholder="Primer número"
         />
-        <input 
-        type="number"
-        id="num2"
-        class="number-input"
-        placeholder="Segundo número"
+        <input
+          type="number"
+          id="num2"
+          class="number-input"
+          placeholder="Segundo número"
         />
-    </div>
-    
-    <div class="operation-selector">
-        <select id="operation" class="operation-selector">
-            <option value="add">Suma (+)</option>
-            <option value="subtract">Resta (-)</option>
-            <option value="multiply">Multiplicar (*)</option>
-            <option value="divide">División (/)</option>
-        </select>
-    </div>
-    
-    <button id="calculate" class="calculate-btn">Calcular</button>
+      </div>
 
-    <div class="result-container">
+      <div class="operation-selector">
+        <select id="operation" class="operation-select">
+          <option value="add">Suma (+)</option>
+          <option value="subtract">Resta (-)</option>
+          <option value="multiply">Multiplicar (*)</option>
+          <option value="divide">División (/)</option>
+        </select>
+      </div>
+
+      <button id="calculate" class="calculate-btn">Calcular</button>
+
+      <div class="result-container">
         <p>Resultado: <span id="result" class="result"></span></p>
-    </div>
-   </main>
-   
-   <script type="module" src="./main.js"></script>
-</body>
+      </div>
+    </main>
+
+    <script type="module" src="./main.js"></script>
+  </body>
 </html>
