@@ -1,0 +1,47 @@
+body {
+  background-color: #5fd2f5;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #030101;
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 2rem;
+  width: auto;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+input[type="number"] {
+  width: 10rem;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  background-color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e0e0e0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a button {
+  color: #030101;
+}
+
+a:hover button {
+  color: #ff0000;
+}
+
+
+
