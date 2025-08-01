@@ -23,25 +23,12 @@ button {
   padding: 0.5rem 1rem;
   font-size: 1.5rem;
   background-color: #f0f0f0;
+  color: #030101;
   border: none;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #e0e0e0;
+  background-color: #f04d4d;
+  color: #0d0c0c;
 }
-
-a {
-  text-decoration: none;
-}
-
-a button {
-  color: #030101;
-}
-
-a:hover button {
-  color: #ff0000;
-}
-
-
-

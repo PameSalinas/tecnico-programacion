@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Generador de tabla</title>
+    <script defer src="./main.js"></script>
+    <style>
+      table {
+        margin-top: 20px;
+        display: none;
+        border: 1px solid #000;
+      }
+
+      table tr th,
+      table tr td {
+        border: 1px solid #000;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Agregar Persona</h2>
+    <form id="formPersona">
+      <input type="text" id="nombre" placeholder="Nombre" required />
+      <input type="number" id="edad" placeholder="Edad" required min="1" />
+      <input type="email" id="correo" placeholder="Correo" required />
+      <button type="submit">Agregar</button>
+    </form>
+
+    <table id="tablaPersonas">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Edad</th>
+          <th>Coreo</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </body>
+</html>

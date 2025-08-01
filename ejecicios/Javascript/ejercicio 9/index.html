@@ -3,14 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tabla de múltiplos <script defer src="./main.js"></script></title>
+    <title>Tabla de múltiplos</title>
+    <script defer src="./main.js"></script>
   </head>
   <body>
     <h2>Generar tabla de múltiplos</h2>
+    <p>Por defecto la longitud de la tabla es de 10</p>
 
     <input type="number" id="numero" placeholder="Ingresa un número" min="1" />
+    <input type="number" id="longitud" placeholder="Ingresa la longitud" min="1"  />
 
-    <button onclick="generarTabla()">Generar</button>
+    <button id="generarBoton">Generar</button>
 
     <ul id="tabla"></ul>
   </body>
