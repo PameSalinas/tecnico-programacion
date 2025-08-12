@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de Expresiones</title>
+    <style>
+      #resultado {
+        margin-top: 10px;
+        font-weight: bold;
+      }
+      .error {
+        color: red;
+      }
+    </style>
+    <script defer src="./main.js"></script>
+  </head>
+  <body>
+    <h2>Calculadora de Expresiones</h2>
+    <input id="expresion" placeholder="Ej:2+3*4" />
+    <button onclick="calcular()">Calcular</button>
+    <div id="resultado"></div>
+  </body>
+</html>

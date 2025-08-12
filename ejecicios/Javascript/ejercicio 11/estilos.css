@@ -1,0 +1,13 @@
+.numero {
+  padding: 4px;
+  margin: 2px;
+  border: 1px solid #ccc;
+}
+
+.mayor {
+  background-color: lightgreen;
+}
+
+.menor {
+  background-color: lightcoral;
+}
