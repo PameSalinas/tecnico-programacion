@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee Dashboard</title>
+    <meta
+      name="description"
+      content="Employee Management Dashboard for adding, editing, and deleting staff 
+    data."
+    />
+
+    <link rel="icon" type="image/svg+xml" href="./icons/favicon.svg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https//:fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?"
+      family="Geist+Mono:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/main.css" />
+    <script defer type="module" src="./js/main.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Employee Management Dashboard 💼</h1>
+    </header>
+
+    <main>
+      <section class="form-section">
+        <h2 id="form-title">Add Employee</h2>
+        <form id="employee-form">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required autocomplete="name" />
+          </div>
+          <div class="form-group">
+            <label for="position">Position:</label>
+
+            <input
+              type="text"
+              id="position"
+              required
+              auntocomplete="job-title"
+            />
+          </div>
+          <div class="form-group">
+            <label for="department">Department:</label>
+            <input
+              type="text"
+              id="department"
+              required
+              autocomplete="organization"
+            />
+          </div>
+          <button type="submit">Save</button>
+          <button type="button" id="cancel-btn" hidden>Cancel</button>
+        </form>
+
+        <button id="reset-btn" class="danger">Reset All</button>
+      </section>
+
+      <section class="table-section">
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Position</th>
+              <th>Department</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="employee-table-body"></tbody>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>
