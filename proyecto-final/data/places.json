@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Pital",
+    "description": "Un lugar hermoso con vistas impresionantes y una rica biodiversidad.",
+    "price": 3,
+    "googleMapsLink": "https://maps.app.goo.gl/kuKLXDREZTm4VT5T6",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrcuq0WKqWZU5lm9CpExON9Xl1xO8PlfBOLgSHK_zK1wS34SATbU6RKzNBHEBck2N7fC-qQ-OWpnzaQ8sH7GYAXC8Sh7pj5721Za-2wQ6MQky0GJmQPy1xFMQFDVH-PvPu1ykGUyq-IfW3p=s2048-v1",
+    "images": [],
+    "touristInflux": "Alta",
+    "weaher": "Frío",
+    "atractions": [
+      "Senderismo",
+      "Miradores",
+      "Acampar",
+      "Observación de flora y fauna"
+    ],
+    "experiences":[
+      {
+        "name:": "Adrian Gonzalez",
+        "description": "Una experiencia inolvidable en Pital, rodeado de naturaleza y tranquilidad.",
+        "score": 5
+      },
+      {
+        "name:": "Maria Lopez",
+        "description": "Disfruté cada momento en Pital, un lugar perfecto para desconectar y recargar energías.",
+        "score": 4
+      }
+    ]
+  }
+]
