@@ -1,6 +1,8 @@
+import Navbar from "../components/Navbar.js";
+import Footer from "../components/Footer.js";
+
 function placesPage() {
-  document.getElementById("content").innerHTML =
-    "<h1>Cargando lugares...</h1>";
+  document.getElementById("app").innerHTML = "<h1>Cargando lugares...</h1>";
 
   fetch("/data/places.json")
     .then((response) => {
@@ -12,14 +14,14 @@ function placesPage() {
     })
     .catch((error) => {
       document.getElementById(
-        "content"
+        "app"
       ).innerHTML = `<p>Error: ${error.message}</p>`;
     });
 }
 
-
 function renderPlaces(places) {
   const html = `
+    ${Navbar()}
     <h1>Lugares para visitar</h1>
     <ul>
       ${places
@@ -34,8 +36,10 @@ function renderPlaces(places) {
         )
         .join("")}
     </ul>
+
+    ${Footer()}
   `;
-  document.getElementById("content").innerHTML = html;
+  document.getElementById("app").innerHTML = html;
 }
 
 export default placesPage;

@@ -30,7 +30,7 @@ function handleRoute() {
     }
   }
 
-  document.getElementById("content").innerHTML =
+  document.getElementById("app").innerHTML =
     "<h1>404 - Página no encontrada</h1>";
 }
 

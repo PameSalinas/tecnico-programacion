@@ -26,14 +26,13 @@
         "score": 4
       }
     ]
-  }
-
+  },
   {
     "name": "Volcán de Santa Ana Ilamatepec",
     "description": "Un majestuoso volcán que ofrece impresionantes vistas y emocionantes actividades al aire libre.",
     "price":3,
     "googleMapsLink": "https://maps.app.goo.gl/Jw5Eusv31ufa1UEH6",
-    "images":	"https://lh3.googleusercontent.com/gps-cs-s/AC9h4np…QpeR8SbFytkjVeI6OjakNo5kWXzm_yTTTO=w408-h306-k-no",
+    "image":	"https://elsalvador.travel/system/wp-content/uploads/2020/01/volcan-ilamatepeque-scaled.jpg",
     "images": [],
     "touristInflux": "Alta",    
     "weaher": "Templado",
@@ -55,14 +54,13 @@
       }
     ]
 
-  }
-
+  },
   {
     "name": "Suchitoto",
     "description": "Un pueblo colonial con calles empedradas y una rica historia cultural.",
     "price": 4,
     "googleMapsLink": "https://maps.app.goo.gl/kYVQPRi2YpxHQJyi8",
-    "image": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nr…CXkIPs_mM4tpCJUAuEa5M1P63smwJ9mpRg=w408-h544-k-no",
+    "image": "https://t4.ftcdn.net/jpg/04/92/71/07/360_F_492710753_Jr3lHmx2kVuCStWqzohuhXyvOnWN94om.jpg",
     "images": [],
     "touristInflux": "Media",
     "weather": "Cálido",
@@ -86,4 +84,3 @@
     ]
   }
 ]
-

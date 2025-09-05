@@ -1,5 +1,12 @@
+import Navbar from "../components/Navbar.js"
+import Footer from "../components/Footer.js"
+
 function principalPage() {
-  document.getElementById("content").innerHTML = "<h1>Página Principal</h1>";
+  document.getElementById("app").innerHTML = `
+    ${Navbar()}
+    <h1>Página principal</h1>
+    ${Footer()}
+  `;
 }
 
-export default principalPage;
+export default principalPage; 
