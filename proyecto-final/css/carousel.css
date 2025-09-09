@@ -1,0 +1,85 @@
+* {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* 🔄 Carrusel de pantalla completa */
+.carousel-wrapper {
+  position: relative;
+  width: 100vw;        /* ✅ Ocupar todo el ancho de la ventana */    /* Opcional: toda la altura de la ventana, puedes usar 400px si prefieres */
+  height: 400px;
+  overflow: hidden;
+  border-radius: 0;    /* Sin bordes redondeados */
+  margin: 0;
+  padding: 0;
+}
+
+/* Fondo que se mueve */
+.carousel-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: max-content;
+  height: 100%;
+  animation: scrollBackground 40s linear infinite;
+  z-index: 1;
+}
+
+/* Imágenes del fondo */
+.carousel-bg-image {
+  height: 100%;
+  width: auto;
+  flex-shrink: 0;
+  object-fit: cover;
+  margin-right: 10px;
+  opacity: 0.25;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* Imagen destacada al frente */
+.carousel-foreground {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-main-image {
+  max-height: 90%;
+  max-width: 90%;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* Animación para mover fondo */
+@keyframes scrollBackground {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.info-section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.slogan {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.site-description {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #555;
+  line-height: 1.6;
+}

@@ -1,11 +1,12 @@
-// main.js
 import principalPage from "./views/main.js";
 import placesPage from "./views/places.js";
 import placePage from "./views/place.js";
 import { getParams } from "./utils.js";
+import aboutPage from "./views/about.js";
 
 const routes = {
   "/": principalPage,
+  "/about": aboutPage,
   "/places": placesPage,
   "/place/:name": placePage,
 };

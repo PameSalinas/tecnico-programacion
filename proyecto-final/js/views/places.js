@@ -1,5 +1,4 @@
-import Navbar from "../components/Navbar.js";
-import Footer from "../components/Footer.js";
+import Layout from "./layout.js";
 
 function placesPage() {
   document.getElementById("app").innerHTML = "<h1>Cargando lugares...</h1>";
@@ -20,8 +19,7 @@ function placesPage() {
 }
 
 function renderPlaces(places) {
-  const html = `
-    ${Navbar()}
+  const placesContent = `
     <h1>Lugares para visitar</h1>
     <ul>
       ${places
@@ -36,10 +34,9 @@ function renderPlaces(places) {
         )
         .join("")}
     </ul>
-
-    ${Footer()}
   `;
-  document.getElementById("app").innerHTML = html;
+
+  Layout(placesContent)
 }
 
 export default placesPage;

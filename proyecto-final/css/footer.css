@@ -1,0 +1,28 @@
+/* ✅ Footer */
+.footer {
+  background-color: #1e293b; /* slate-800 */
+  color: #ffffff;
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 15px;
+  gap: 20px;
+  padding: 0;
+}
+
+.footer-icons li a svg {
+  width: 24px;
+  height: 24px;
+  fill: #ffffff;
+  transition: fill 0.3s ease;
+}
+
+.footer-icons li a:hover svg {
+  fill: #007bff;
+}
