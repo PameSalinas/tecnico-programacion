@@ -5,7 +5,12 @@
     "price": 3,
     "googleMapsLink": "https://maps.app.goo.gl/kuKLXDREZTm4VT5T6",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrcuq0WKqWZU5lm9CpExON9Xl1xO8PlfBOLgSHK_zK1wS34SATbU6RKzNBHEBck2N7fC-qQ-OWpnzaQ8sH7GYAXC8Sh7pj5721Za-2wQ6MQky0GJmQPy1xFMQFDVH-PvPu1ykGUyq-IfW3p=s2048-v1",
-    "images": [],
+    "images": [
+      "https://xpedition2024.pensertrust.com/wp-content/uploads/2024/02/Pital_004.jpeg",
+      "https://www.espaciohonduras.net/images/Honduras/Protecci%C3%B3n/Reserva_Biologica/El_Pital/El_Pital.jpg",
+      "https://elsalvadorviajar.com/wp-content/uploads/2021/11/Vistas-de-Cerro-El-Pital.jpg",
+      "https://elsalvadorviajar.com/wp-content/uploads/2021/11/CERRO-EL-PITAL-Cerros-de-El-Salvador.jpg"
+    ],
     "touristInflux": "Alta",
     "weaher": "Frío",
     "atractions": [
@@ -14,7 +19,7 @@
       "Acampar",
       "Observación de flora y fauna"
     ],
-    "experiences":[
+    "experiences": [
       {
         "name:": "Adrian Gonzalez",
         "description": "Una experiencia inolvidable en Pital, rodeado de naturaleza y tranquilidad.",
@@ -30,30 +35,30 @@
   {
     "name": "Volcán de Santa Ana Ilamatepec",
     "description": "Un majestuoso volcán que ofrece impresionantes vistas y emocionantes actividades al aire libre.",
-    "price":3,
+    "price": 3,
     "googleMapsLink": "https://maps.app.goo.gl/Jw5Eusv31ufa1UEH6",
-    "image":	"https://elsalvador.travel/system/wp-content/uploads/2020/01/volcan-ilamatepeque-scaled.jpg",
-    "images": [],
-    "touristInflux": "Alta",    
-    "weaher": "Templado",
-    "atractions": [
-      "Senderismo",
-      "bosque nublados",
-      "Zona de camping"
+    "image": "https://elsalvador.travel/system/wp-content/uploads/2020/01/volcan-ilamatepeque-scaled.jpg",
+    "images": [
+      "https://elsalvador.travel/system/wp-content/uploads/2024/06/santa-ana04.jpg]",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK4d9jcsR7XqWiZwWxtYslNX-EHtqOnoyMew&s",
+      "https://ynkszwyttfswzaoigtvn.supabase.co/storage/v1/object/public/avatars/hikeguideheroimg.webp",
+      "https://thumbs.dreamstime.com/b/toma-vertical-del-lago-cr%C3%A1ter-volc%C3%A1n-santa-ana-en-el-salvador-centroam%C3%A9rica-una-259993632.jpg"
     ],
+    "touristInflux": "Alta",
+    "weaher": "Templado",
+    "atractions": ["Senderismo", "bosque nublados", "Zona de camping"],
     "experiences": [
       {
         "name": "Anaí Torres",
         "description": "Una de las mejores experiencias vividas es subir el volcán de Santa Ana, las vistas que posee son imprecionantes y la experiencia de subirlo es único.",
-        "score":5
+        "score": 5
       },
       {
         "name": "Henry Morales",
         "description": "El volcán de Santa Ana es un lugar que todo salvadoreño debe visitar. Es más que impresionante, es una experiencia que no te puedes perder.",
-        "score":5
+        "score": 5
       }
     ]
-
   },
   {
     "name": "Suchitoto",
@@ -61,7 +66,12 @@
     "price": 4,
     "googleMapsLink": "https://maps.app.goo.gl/kYVQPRi2YpxHQJyi8",
     "image": "https://t4.ftcdn.net/jpg/04/92/71/07/360_F_492710753_Jr3lHmx2kVuCStWqzohuhXyvOnWN94om.jpg",
-    "images": [],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/a1/El_Quijote_de_los_p%C3%A1jaros_y_las_flores.jpg",
+      "https://i0.wp.com/suchitotoelsalvador.com/wp-content/uploads/2024/04/Casa-de-las-abuela-en-Suchitoto-El-Salvador.jpg?fit=2048%2C1542&ssl=1",
+      "https://i0.wp.com/gacetasuchitoto.com/wp-content/uploads/2020/04/fachada-LCA.jpg",
+      "https://everythingelsalvador.com/wp-content/uploads/2021/09/Things-to-do-in-Suchitoto-El-Salvador-1800x1200.jpg"
+    ],
     "touristInflux": "Media",
     "weather": "Cálido",
     "attractions": [
@@ -80,6 +90,73 @@
         "name": "Yamileth Castaneda",
         "description": "Disfruté mucho mi visita a Suchitoto. Es un lugar perfecto para relajarse y disfrutar de la cultura.",
         "score": 4
+      }
+    ]
+  },
+  {
+    "name": "Parque Nacional Cerro Verde",
+    "description": "El increíble parque nacional que alberga una gran biodiversidad y ofrece impresionantes vistas a sus visitantes. Ideal para actividades al aire libre como senderismo y observación de aves, mostrando la maravilla natural de El Salvador.",
+    "price": 3,
+    "googleMapsLink": "https://maps.app.goo.gl/H9fL6wCXRi9ykKRVA",
+    "image": "https://pbs.twimg.com/media/FsJs3KmXwAEaTf3.jpg:large",
+    "images": [
+      "https://media.istockphoto.com/id/626502706/es/foto/izalco-volcano-cerro-verde-national-park-el-salvador.jpg?s=612x612&w=0&k=20&c=-0KoPyrZzToEb8sqtpaf4MpXesqAcLWK20E08x_fKJA=",
+      "https://www.shutterstock.com/image-photo/cerro-verde-el-salvador-dec-260nw-2595214431.jpg",
+      "https://elsalvador.travel/system/wp-content/uploads/2022/12/DestinationCerroVerde01.jpg",
+      "https://media-cdn.tripadvisor.com/media/photo-s/03/28/6d/ce/national-park-cerro-verde.jpg"
+    ],
+    "touristInflux": "Alta",
+    "weather": "Templado",
+    "attractions": [
+      "Ascenso al volcán",
+      "Observación de aves",
+      "Cascadas",
+      "Miradores",
+      "Camping"
+    ],
+    "experiences": [
+      {
+        "name": "Roger Salazar",
+        "description": "La experiencia de hacer camping en el Parque Nacional Cerro Verde fue inolvidable. Las vistas desde los miradores son simplemente espectaculares.",
+        "score": 5
+      },
+      {
+        "name": "Laura Gomez",
+        "description": "Visitar el Parque Nacional Cerro Verde fue una experiencia única. La biodiversidad y los paisajes son impresionantes.",
+        "score": 5
+      }
+    ]
+  },
+  {
+    "name": "Volcán de Conchagua – Mirador al Golfo de Fonseca",
+    "description": "Un lugar impresionante para disfrutar de vistas panorámicas del Golfo de Fonseca. Ideal para senderismo y fotografía. Una experiencia única en contacto con la naturaleza.",
+    "price": 8,
+    "googleMapsLink": "https://maps.app.goo.gl/xFDcBRgz9xGhQc3CA",
+    "image": "https://www.delfinestour.net/wp-content/uploads/2024/08/WhatsApp-Image-2024-08-10-at-12.08.20-PM.jpeg",
+    "images": [
+      "https://bokun.s3.amazonaws.com/34117c6a-c2f4-4590-b25b-0c7869394eac.jpg?fl_progressive,h_507,w_900,q_5/",
+      "https://elsalvador.travel/system/wp-content/uploads/2020/01/Volcn-de-Conchagua-6.jpg",
+      "https://conchaguas.com/wp-content/uploads/2021/02/volcan-conchagua.jpg..nnn_.jpg",
+      "https://www.delfinestour.net/wp-content/uploads/2025/03/IMG_9979.jpeg"
+    ],
+    "touristInflux": "Alta",
+    "weather": "Cálido",
+    "attractions": [
+      "Fotografía panorámica",
+      "Observación de aves y naturaleza",
+      "Recorrido en sus islas cercanas",
+      "Senderismo"
+    ],
+    "experiences": [
+      {
+        "name": "Alexandra Aguilar",
+        "description": "La vista impresionante desde el mirador del Volcán de Conchagua es simplemente espectacular. Un lugar perfecto para los amantes de la naturaleza.",
+        "score": 5
+      },
+      {
+        "name": "Javier Mendoza",
+        "description": "Un lugar ideal para disfrutar de la naturaleza y la tranquilidad. Las vistas son impresionantes.",
+        "score": 5
       }
     ]
   }
