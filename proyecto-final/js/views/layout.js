@@ -3,9 +3,11 @@ import Footer from "../components/Footer.js"
 
 function Layout(content) {
   document.getElementById("app").innerHTML = `
-    ${Navbar()}
+    <header>
+      ${Navbar()}
+    </header>
     <main>
-      ${content}
+    ${content}
     </main>
     ${Footer()}
   `;

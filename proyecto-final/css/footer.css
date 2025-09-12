@@ -1,8 +1,7 @@
-/* ✅ Footer */
 .footer {
-  background-color: #1e293b; /* slate-800 */
+  background-color: #7b6f8d;
   color: #ffffff;
-  padding: 30px 20px;
+  padding: 20px;
   text-align: center;
   font-size: 0.95rem;
 }
@@ -17,12 +16,9 @@
 }
 
 .footer-icons li a svg {
-  width: 24px;
-  height: 24px;
-  fill: #ffffff;
-  transition: fill 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .footer-icons li a:hover svg {
-  fill: #007bff;
+  transform: translateY(-3px);
 }
