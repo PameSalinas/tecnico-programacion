@@ -4,7 +4,7 @@
     "description": "Un lugar hermoso con vistas impresionantes y una rica biodiversidad.",
     "price": 3,
     "googleMapsLink": "https://maps.app.goo.gl/kuKLXDREZTm4VT5T6",
-    "image": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrcuq0WKqWZU5lm9CpExON9Xl1xO8PlfBOLgSHK_zK1wS34SATbU6RKzNBHEBck2N7fC-qQ-OWpnzaQ8sH7GYAXC8Sh7pj5721Za-2wQ6MQky0GJmQPy1xFMQFDVH-PvPu1ykGUyq-IfW3p=s2048-v1",
+    "image": "https://venture-out.s3.us-east-2.amazonaws.com/guide-images/1744963413788-media%3Fkey%3DAIzaSyCkpNVocP1IwgtIz1s4aaTb1GgwMdUtzBw%26maxHeightPx%3D800%26maxWidthPx%3D800",
     "images": [
       "https://xpedition2024.pensertrust.com/wp-content/uploads/2024/02/Pital_004.jpeg",
       "https://www.espaciohonduras.net/images/Honduras/Protecci%C3%B3n/Reserva_Biologica/El_Pital/El_Pital.jpg",
@@ -39,10 +39,10 @@
     "googleMapsLink": "https://maps.app.goo.gl/Jw5Eusv31ufa1UEH6",
     "image": "https://elsalvador.travel/system/wp-content/uploads/2020/01/volcan-ilamatepeque-scaled.jpg",
     "images": [
-      "https://elsalvador.travel/system/wp-content/uploads/2024/06/santa-ana04.jpg]",
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK4d9jcsR7XqWiZwWxtYslNX-EHtqOnoyMew&s",
+      "https://elsalvador.travel/system/wp-content/uploads/2024/06/santa-ana04.jpg",
+      "https://elsalvador.travel/system/wp-content/uploads/2024/08/lagocoatepeque-01.jpg",
       "https://ynkszwyttfswzaoigtvn.supabase.co/storage/v1/object/public/avatars/hikeguideheroimg.webp",
-      "https://thumbs.dreamstime.com/b/toma-vertical-del-lago-cr%C3%A1ter-volc%C3%A1n-santa-ana-en-el-salvador-centroam%C3%A9rica-una-259993632.jpg"
+      "https://online.salvadoreantours.com/wp-content/uploads/2016/05/volcan-ilamatepec-panoramica-e1463606831571.jpg"
     ],
     "touristInflux": "Alta",
     "weaher": "Templado",
@@ -68,7 +68,7 @@
     "image": "https://t4.ftcdn.net/jpg/04/92/71/07/360_F_492710753_Jr3lHmx2kVuCStWqzohuhXyvOnWN94om.jpg",
     "images": [
       "https://everythingelsalvador.com/wp-content/uploads/2021/09/Things-to-do-in-Suchitoto-El-Salvador-1800x1200.jpg",
-      "https://www.laprensagrafica.com/__export/1658118801693/sites/prensagrafica/img/2022/07/17/20220717_074623799_fdpt13072022dpsuchi04.jpg_1902800913.jpg",
+      "https://www.paradisecatchers.com/wp-content/uploads/2024/04/Suchitoto-Santa-Lucia-Church.jpg",
       "https://xpot.sv/wp-content/uploads/2025/03/Ed-82-turismo-Colonial-29.jpg",
       "https://upload.wikimedia.org/wikipedia/commons/a/a1/El_Quijote_de_los_p%C3%A1jaros_y_las_flores.jpg"
     ],
@@ -101,7 +101,7 @@
     "image": "https://pbs.twimg.com/media/FsJs3KmXwAEaTf3.jpg:large",
     "images": [
       "https://media.istockphoto.com/id/626502706/es/foto/izalco-volcano-cerro-verde-national-park-el-salvador.jpg?s=612x612&w=0&k=20&c=-0KoPyrZzToEb8sqtpaf4MpXesqAcLWK20E08x_fKJA=",
-      "https://www.shutterstock.com/image-photo/cerro-verde-el-salvador-dec-260nw-2595214431.jpg",
+      "https://scontent.fsal1-1.fna.fbcdn.net/v/t39.30808-6/490076680_1108229951336745_5322044639037685622_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=wySyeDjZ0dYQ7kNvwF_gDhi&_nc_oc=Adn2HQKMqh2mghf2wKUehvShYVWwhfSG1phvXhFzCnsGKtottOXeSRwTwsoMHa-jKqs&_nc_zt=23&_nc_ht=scontent.fsal1-1.fna&_nc_gid=na6PxI0dVAcfhiL58maWEA&oh=00_AfY1jng6OL5VEJlgDuoHYePrfu408mTNYywDnpv_ReVnZw&oe=68CFA3D7",
       "https://elsalvador.travel/system/wp-content/uploads/2022/12/DestinationCerroVerde01.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/03/28/6d/ce/national-park-cerro-verde.jpg"
     ],
@@ -128,7 +128,7 @@
     ]
   },
   {
-    "name": "Volcán de Conchagua – Mirador al Golfo de Fonseca",
+    "name": "Volcán de Conchagua - Mirador al Golfo de Fonseca",
     "description": "Un lugar impresionante para disfrutar de vistas panorámicas del Golfo de Fonseca. Ideal para senderismo y fotografía. Una experiencia única en contacto con la naturaleza.",
     "price": 8,
     "googleMapsLink": "https://maps.app.goo.gl/xFDcBRgz9xGhQc3CA",
@@ -136,7 +136,7 @@
     "images": [
       "https://bokun.s3.amazonaws.com/34117c6a-c2f4-4590-b25b-0c7869394eac.jpg?fl_progressive,h_507,w_900,q_5/",
       "https://elsalvador.travel/system/wp-content/uploads/2020/01/Volcn-de-Conchagua-6.jpg",
-      "https://conchaguas.com/wp-content/uploads/2021/02/volcan-conchagua.jpg..nnn_.jpg",
+      "https://scontent.fsal1-1.fna.fbcdn.net/v/t1.6435-9/117349829_10158569386852618_7465136476518921487_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=JqUOYRj2Es8Q7kNvwG6-OrN&_nc_oc=Adl0KXQEoi9a6YqfknD6ZLnEL2qfFgNPYcrSYd6WDI8cVFo8Gs2VUNeBL9ZcESXm_xg&_nc_zt=23&_nc_ht=scontent.fsal1-1.fna&_nc_gid=vpomi9NgYu-NirmPiUshoQ&oh=00_AfZyZE0LWOxc-GdAWztj25z6gZHO6Cvr9HKwb8pvJTSVYw&oe=68F12B45",
       "https://www.delfinestour.net/wp-content/uploads/2025/03/IMG_9979.jpeg"
     ],
     "touristInflux": "Alta",

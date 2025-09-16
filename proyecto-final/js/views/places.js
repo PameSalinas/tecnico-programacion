@@ -20,23 +20,31 @@ function placesPage() {
 
 function renderPlaces(places) {
   const placesContent = `
-    <h1>Lugares para visitar</h1>
-    <ul>
-      ${places
-        .map(
-          (place) => `
-        <li>
-          <a href="/place/${encodeURIComponent(place.name)}">${
-            place.name
-          }</a> - ${place.description}
-        </li>
-      `
-        )
-        .join("")}
-    </ul>
+  <div class="places-wrapper">
+    <h1>Elije tu destino</h1>
+   <section class="places-container">
+        ${places
+          .map(
+            (place) => `
+            <article class="place-card">
+              <div class="place-image-section">
+                <img src="${place.image}" alt="${place.name}" />
+                <h2>${place.name}</h2>
+              </div>
+              <div class="place-info-section">
+                <p>${place.description}</p>
+                <a href="/place/${encodeURIComponent(place.name)}">
+                  Descubrir
+                </a>
+              </div>
+            </article>
+          `
+          )
+          .join("")}
+      </section>
   `;
 
-  Layout(placesContent)
+  Layout(placesContent);
 }
 
 export default placesPage;

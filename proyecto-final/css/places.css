@@ -1,0 +1,81 @@
+.places-wrapper {
+  padding: 2rem;
+}
+
+.places-wrapper h1 {
+  text-align: center;
+}
+
+.places-container {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.place-card {
+  display: flex;
+  flex-direction: row;
+  background: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 800px;
+  width: 100%;
+  transition: box-shadow .3s ease;
+}
+
+.place-card:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.place-image-section {
+  flex: 2;
+  background-color: #f1e9fe;
+  text-align: center;
+  padding: 1rem;
+}
+
+.place-image-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.place-image-section h2 {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  color: #222;
+}
+
+.place-info-section {
+  flex: 2;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.place-info-section p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.place-info-section a {
+  align-self: flex-start;
+  padding: 0.6rem 1.2rem;
+  background-color: #a370f0;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.place-info-section a:hover {
+  background-color: #985df0;
+  transform: translateY(-2px);
+}

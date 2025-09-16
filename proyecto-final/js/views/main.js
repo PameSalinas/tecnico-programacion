@@ -24,7 +24,7 @@ function renderPrincipalPage(places) {
   const shuffledImages = shuffleArray(allImages);
   const backgroundImages = [...shuffledImages, ...shuffledImages];
 
-  Layout(`
+  const mainContent = `
     <section class="carousel-wrapper">
       <div class="carousel-background" id="carousel-background">
         ${backgroundImages
@@ -68,7 +68,9 @@ function renderPrincipalPage(places) {
         </div>
       </a>
     </section>
-  `);
+  `;
+
+  Layout(mainContent);
 
   initRandomMainImage(allImages);
 }
