@@ -1,4 +1,5 @@
 import { getParams } from "../utils.js";
+import Layout from "./layout.js";
 
 function placePage() {
   const params = getParams("/place/:name", window.location.pathname);
@@ -6,7 +7,9 @@ function placePage() {
   console.log(params);
   const name = params.name || "Lugar desconocido";
 
-  document.getElementById("app").innerHTML = `<h1>${name}</h1>`;
+  const placeContent = `<h1>${name}</h1>`
+
+  Layout(placeContent)
 }
 
 export default placePage;

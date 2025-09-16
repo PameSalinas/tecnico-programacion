@@ -6,10 +6,17 @@
     "googleMapsLink": "https://maps.app.goo.gl/kuKLXDREZTm4VT5T6",
     "image": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrcuq0WKqWZU5lm9CpExON9Xl1xO8PlfBOLgSHK_zK1wS34SATbU6RKzNBHEBck2N7fC-qQ-OWpnzaQ8sH7GYAXC8Sh7pj5721Za-2wQ6MQky0GJmQPy1xFMQFDVH-PvPu1ykGUyq-IfW3p=s2048-v1",
     "images": [
+<<<<<<< HEAD
       "https://xpedition2024.pensertrust.com/wp-content/uploads/2024/02/Pital_004.jpeg",
       "https://www.espaciohonduras.net/images/Honduras/Protecci%C3%B3n/Reserva_Biologica/El_Pital/El_Pital.jpg",
       "https://elsalvadorviajar.com/wp-content/uploads/2021/11/Vistas-de-Cerro-El-Pital.jpg",
       "https://elsalvadorviajar.com/wp-content/uploads/2021/11/CERRO-EL-PITAL-Cerros-de-El-Salvador.jpg"
+=======
+      "https://juanlievano.com/wp-content/uploads/2024/05/PXL_20230804_205939644-scaled.jpg",
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/e2/b3/c9/el-pital.jpg?w=900&h=500&s=1",
+      "https://elsalvadorviajar.com/wp-content/uploads/2021/11/El-Pital-en-Chalatenango.jpg",
+      "https://www.espaciohonduras.net/images/Honduras/Protecci%C3%B3n/Reserva_Biologica/El_Pital/El_Pital.jpg"
+>>>>>>> 74949b73e9e4f00f42e11390678a74e6be710a46
     ],
     "touristInflux": "Alta",
     "weaher": "Frío",
@@ -67,10 +74,10 @@
     "googleMapsLink": "https://maps.app.goo.gl/kYVQPRi2YpxHQJyi8",
     "image": "https://t4.ftcdn.net/jpg/04/92/71/07/360_F_492710753_Jr3lHmx2kVuCStWqzohuhXyvOnWN94om.jpg",
     "images": [
-      "https://upload.wikimedia.org/wikipedia/commons/a/a1/El_Quijote_de_los_p%C3%A1jaros_y_las_flores.jpg",
-      "https://i0.wp.com/suchitotoelsalvador.com/wp-content/uploads/2024/04/Casa-de-las-abuela-en-Suchitoto-El-Salvador.jpg?fit=2048%2C1542&ssl=1",
-      "https://i0.wp.com/gacetasuchitoto.com/wp-content/uploads/2020/04/fachada-LCA.jpg",
-      "https://everythingelsalvador.com/wp-content/uploads/2021/09/Things-to-do-in-Suchitoto-El-Salvador-1800x1200.jpg"
+      "https://everythingelsalvador.com/wp-content/uploads/2021/09/Things-to-do-in-Suchitoto-El-Salvador-1800x1200.jpg",
+      "https://www.laprensagrafica.com/__export/1658118801693/sites/prensagrafica/img/2022/07/17/20220717_074623799_fdpt13072022dpsuchi04.jpg_1902800913.jpg",
+      "https://xpot.sv/wp-content/uploads/2025/03/Ed-82-turismo-Colonial-29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/a/a1/El_Quijote_de_los_p%C3%A1jaros_y_las_flores.jpg"
     ],
     "touristInflux": "Media",
     "weather": "Cálido",
