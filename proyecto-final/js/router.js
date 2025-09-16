@@ -36,14 +36,12 @@ function handleRoute() {
 }
 
 document.addEventListener("click", (event) => {
-  if (event.target.tagName === "A") {
-    const href = event.target.getAttribute("href");
-    if (href && href.startsWith("/")) {
-      event.preventDefault();
-      window.history.pushState({}, "", href);
-      handleRoute();
-    }
-  }
+  const anchor = event.target.closest("a");
+  if (anchor && anchor.getAttribute("href")?.startsWith("/")) {
+    event.preventDefault();
+    window.history.pushState({}, "", anchor.getAttribute("href"));
+    handleRoute();
+  }     
 });
 
 window.addEventListener("popstate", handleRoute);

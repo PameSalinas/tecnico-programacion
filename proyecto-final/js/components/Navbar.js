@@ -2,7 +2,10 @@ function Navbar() {
   return `
     <nav class="navbar">
       <div class="navbar-logo">
-        <a href="/">ExploreSV</a>
+        <a href="/">
+        <span>ExploreSV</span>
+        <img src="/icons/favicon.svg" alt="Logo ExploreSV" />
+        </a>
       </div>
       <div class="navbar-links">
         <ul>
