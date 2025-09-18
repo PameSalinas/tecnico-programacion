@@ -1,7 +1,7 @@
 [
   {
     "name": "Pital",
-    "description": "Un lugar hermoso con vistas impresionantes y una rica biodiversidad.",
+    "description": "Un lugar hermoso con vistas impresionantes y una rica biodiversidad.Descubre Cerro El Pital, el punto más alto del país y uno de los destinos más impresionantes para los amantes del ecoturismo. Ubicado en San Ignacio, Chalatenango, este paraíso natural se eleva a 2,730 metros sobre el nivel del mar, ofreciendo un clima fresco, paisajes cubiertos de neblina y una biodiversidad única que lo convierten en un refugio ideal para la aventura y el descanso. Durante el recorrido hacia la cima, los visitantes atraviesan senderos rodeados de pinos, robles, encinos y cipresales, con vistas panorámicas que permiten observar otros volcanes, valles y hasta el Golfo de Fonseca en días despejados.",
     "price": 3,
     "googleMapsLink": "https://maps.app.goo.gl/kuKLXDREZTm4VT5T6",
     "image": "https://venture-out.s3.us-east-2.amazonaws.com/guide-images/1744963413788-media%3Fkey%3DAIzaSyCkpNVocP1IwgtIz1s4aaTb1GgwMdUtzBw%26maxHeightPx%3D800%26maxWidthPx%3D800",
@@ -34,7 +34,7 @@
   },
   {
     "name": "Volcán de Santa Ana Ilamatepec",
-    "description": "Un majestuoso volcán que ofrece impresionantes vistas y emocionantes actividades al aire libre.",
+    "description": "el Volcán de Santa Ana se eleva a 2,381 metros sobre el nivel del mar, coronándose como el punto volcánico más alto de El Salvador. Su imponente cráter alberga una laguna de color turquesa, formada por aguas sulfurosas, que ofrece una vista surreal y única en la región. La caminata hacia la cima es una experiencia inolvidable: atraviesas bosques nubosos, vegetación de montaña y zonas erosionadas, mientras el clima fresco te acompaña en cada paso. Desde lo alto, puedes contemplar el majestuoso Lago de Coatepeque, otros volcanes del complejo Apaneca-Ilamatepec, y vastos paisajes cafetaleros.",
     "price": 3,
     "googleMapsLink": "https://maps.app.goo.gl/Jw5Eusv31ufa1UEH6",
     "image": "https://elsalvador.travel/system/wp-content/uploads/2020/01/volcan-ilamatepeque-scaled.jpg",
@@ -62,7 +62,7 @@
   },
   {
     "name": "Suchitoto",
-    "description": "Un pueblo colonial con calles empedradas y una rica historia cultural.",
+    "description": "Un pueblo colonial con calles empedradas y una rica historia cultural. Al recorrer sus calles empedradas, te encontrarás con casas de tejas rojas, balcones pintorescos y una atmósfera que te transporta al pasado. En el corazón del pueblo se alza la Iglesia de Santa Lucía, construida en el siglo XIX, rodeada por el Parque Central, donde los fines de semana se celebran ferias de artesanías y gastronomía local.Suchitoto también es un centro vibrante de arte y paz. El Centro Arte para la Paz, ubicado en un antiguo convento, ofrece talleres, exposiciones y espacios de reflexión. Además, la ciudad cuenta con museos, galerías, cafés bohemios y festivales culturales que la han convertido en la capital cultural de El Salvador.",
     "price": 4,
     "googleMapsLink": "https://maps.app.goo.gl/kYVQPRi2YpxHQJyi8",
     "image": "https://t4.ftcdn.net/jpg/04/92/71/07/360_F_492710753_Jr3lHmx2kVuCStWqzohuhXyvOnWN94om.jpg",
@@ -95,7 +95,7 @@
   },
   {
     "name": "Parque Nacional Cerro Verde",
-    "description": "El increíble parque nacional que alberga una gran biodiversidad y ofrece impresionantes vistas a sus visitantes. Ideal para actividades al aire libre como senderismo y observación de aves, mostrando la maravilla natural de El Salvador.",
+    "description": "El increíble parque nacional que alberga una gran biodiversidad y ofrece impresionantes vistas a sus visitantes. Ideal para actividades al aire libre como senderismo y observación de aves, mostrando la maravilla natural que conserva El Salvador. El parque es ideal para quienes buscan caminatas tranquilas, picnics en familia y conexión con la naturaleza. Sus senderos interpretativos permiten explorar la flora y fauna local, mientras que los miradores regalan panoramas inolvidables del Lago de Coatepeque y el Valle de Zapotitán.",
     "price": 3,
     "googleMapsLink": "https://maps.app.goo.gl/H9fL6wCXRi9ykKRVA",
     "image": "https://pbs.twimg.com/media/FsJs3KmXwAEaTf3.jpg:large",
@@ -129,7 +129,7 @@
   },
   {
     "name": "Volcán de Conchagua - Mirador al Golfo de Fonseca",
-    "description": "Un lugar impresionante para disfrutar de vistas panorámicas del Golfo de Fonseca. Ideal para senderismo y fotografía. Una experiencia única en contacto con la naturaleza.",
+    "description": "Un lugar impresionante para disfrutar de vistas panorámicas del Golfo de Fonseca. Ideal para senderismo y fotografía. Una experiencia única en contacto con la naturaleza.Conocido como el “Guardián del Golfo”, el volcán está rodeado de vegetación exuberante y brinda vistas panorámicas que alcanzan hasta Honduras y Nicaragua. Es ideal para quienes buscan aventura, fotografía de paisajes, y contacto directo con la naturaleza.",
     "price": 8,
     "googleMapsLink": "https://maps.app.goo.gl/xFDcBRgz9xGhQc3CA",
     "image": "https://www.delfinestour.net/wp-content/uploads/2024/08/WhatsApp-Image-2024-08-10-at-12.08.20-PM.jpeg",
@@ -156,6 +156,110 @@
       {
         "name": "Javier Mendoza",
         "description": "Un lugar ideal para disfrutar de la naturaleza y la tranquilidad. Las vistas son impresionantes.",
+        "score": 5
+      }
+    ]
+  },
+  {
+    "name": "Playa las Flores",
+    "description": "Playa las Flores es uno de esos rincones que parecen salidos de un postal, donde la naturaleza se expresa con fuerza y elegancia. Su costa está abrazada por acantilados verdes que se asoman al mar como guardianes silenciosos, mientras las olas rompes con ritmo perfecto sobre la arena oscura. Playa las Flores es un lugar expectacular que cautiva a cada visitante.",
+    "price": 20,
+    "googleMapsLink": "https://maps.app.goo.gl/EKgsGCSoyvSPo3T58",
+    "image": "https://scontent.fsal2-2.fna.fbcdn.net/v/t1.6435-9/159143290_10159093911782618_5725644655433530482_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=37YyVQUEaBoQ7kNvwHgmRqM&_nc_oc=AdmPJzB2adxD2XmlnBGaVbztAqmEMpWQ6jtV-AL-uLOcOZYjTNQklAISkpuzIMG5Aik&_nc_zt=23&_nc_ht=scontent.fsal2-2.fna&_nc_gid=2k768C9RUMMBkQVd8ZMHXQ&oh=00_Afbtvmts1K0tve1KmpNxcL-YN-0-LMhKwWeC-Dd9Y1LePw&oe=68F2CEBE",
+    "images": [
+      "https://scontent.fsal11-1.fna.fbcdn.net/v/t1.6435-9/136166519_3992673434110196_541972129528060846_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=oAElH9qz850Q7kNvwES7xxZ&_nc_oc=AdksIoNTpp8dwi4jhU1JYzEMBbx3LH2_0yHKsStVWRvaOGjmfs3NYhRzDOI7xQQguHs&_nc_zt=23&_nc_ht=scontent.fsal11-1.fna&_nc_gid=dXd4nwNFiNdaeFRijtllBg&oh=00_Afb_Tuaxa76n61hc2c4iJ_E1Hn6ccE5PugM2m7qLHLzCQQ&oe=68F2ED09",
+      "https://elsalvador.travel/system/wp-content/uploads/2020/09/Playa-Las-Flores-5.jpg",
+      "https://elsalvadorviajar.com/wp-content/uploads/2021/10/PLAYA-LAS-FLORES-SAN-MIGUEL-Playas-de-El-Salvador.jpg",
+      "https://www.viajeroselsalvador.com/uploads/5/6/1/0/5610753/1157460_orig.jpg"
+    ],
+    "touristInflux": "Alta",
+    "weather": "Cálido",
+    "attractions": [
+      "Surf",
+      "Gastronomía local",
+      "Buceo",
+      "Paseos en lanchas",
+      "Deportes en arena"
+    ],
+    "experiences": [
+      {
+        "name": "Luci Montalvo",
+        "description": "Playa las Flores, el lugar ideal para encontrar la conexión con el medio ambiente, desconectandonos del ritmo urbano y disfrutar de un espacio sereno. Un lugar aunténtico.",
+        "score": 5
+      },
+      {
+        "name": "Marck",
+        "description": "Playa Las Flores es, sin exagerar, un lugar verdaderamente único. Desde el primer momento en que se pisa su arena volcánica, se percibe una atmósfera distinta: tranquila, envolvente, casi mágica. El sonido constante de las olas, el paisaje rodeado de acantilados verdes y el cielo que parece pintado a mano al atardecer, hacen que cada instante allí se sienta especial.",
+        "score": 5
+      }
+    ]
+  },
+  {
+    "name": "Apuzunga Metapán",
+    "description": "Apuzunga un lugar hermoso y lleno de energía, rodeado de vegetación y alimentado por aguas cristalinas que nacen de fuentes naturales. Aunque no es el parque más grande del país, su encanto radica en la variedad de actividades que ofrece: desde piscinas para todas las edades, toboganes coloridos, trampolines, hasta zonas de picnic y descanso.",
+    "price": 3,
+    "googleMapsLink": "https://maps.app.goo.gl/kVyCDqVXxhtaRDLp9",
+    "image": "https://scontent.fsal3-1.fna.fbcdn.net/v/t1.6435-9/128729207_4027495373946252_1073947813510088304_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=pCiAWUjEb7YQ7kNvwFsbCkY&_nc_oc=AdmMA5W1wH94chnZpDPqN4Q56GDc92HrA9Lj3rptUdQQtNNeETl7Ny7PSlG943qCdXuV9DJHNfiuWnp7xoubo03h&_nc_zt=23&_nc_ht=scontent.fsal3-1.fna&_nc_gid=ZCM8aJeUNqgoYbr0hzLg2Q&oh=00_AfY4Ac34wdWF3uzg0P3B1vMeqBnqagMz1oEFP8B8o-8KfA&oe=68F3F915",
+
+    "images": [
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/72/ee/1a/photo0jpg.jpg?w=900&h=500&s=1",
+      "https://scontent.fsal2-1.fna.fbcdn.net/v/t1.6435-9/182913585_4486134454749006_8726020669211359301_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=FhsCqHdHX7gQ7kNvwEI3pjs&_nc_oc=AdnXYYMzAWau4uiFU5XD50ekJtTtrgkHvu-Jgvlpthd3AoFW9Y1CVL25f-V1Mofl6k9gO9rxFIQ2jvsQN_fxT31W&_nc_zt=23&_nc_ht=scontent.fsal2-1.fna&_nc_gid=K--dbWvlS9S5k3usgowp6g&oh=00_AfZNG8X81cpw57C4R8QEAFT6K1dnAC2QvsRUfkCir-bVcw&oe=68F3D251",
+      "https://scontent.fsal3-1.fna.fbcdn.net/v/t39.30808-6/485081142_1049422760544945_4729088667729165736_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=NE7wqSF8oEIQ7kNvwHkohO1&_nc_oc=AdlXIn6xLeatnVKlOWv0ZU6KWP4jVWHotc2fhuMJNrBvKVD8f1QpaEHe-4EQxm3qXZF8Xj78bCpRECxhFbyAtkts&_nc_zt=23&_nc_ht=scontent.fsal3-1.fna&_nc_gid=Q_XzWmrvqrc_T_gQfjNSow&oh=00_Afbsua2V77J8j3w5ND6bETSYhmAPfjRYX-yd1-uSQNh9-g&oe=68D23D01",
+      "https://assets.isu.pub/document-structure/230529133422-a312256958d4e4da7776f5ee14580eaf/v1/0c520396f5ef1575f38736e23bcbc5f2.jpeg"
+    ],
+    "touristInflux": "Alta",
+    "weather": "Cálido",
+    "attractions": [
+      "Canopy (Tirolesa)",
+      "Zonas de picnic y áreas verdes",
+      "Restaurantes con vista al río",
+      "Camping y cabañas",
+      "Canchas deportivas"
+    ],
+    "experiences": [
+      {
+        "name": "Ashley Rivera",
+        "description": "Uno de los mejores luagres para visitar, con lindas vistas, excelentes recorridos en distintas zonas verdes, excelente servicio al cliente, cuidado de la fauna y flora. ",
+        "score": 4
+      },
+      {
+        "name": "Michael Palacios",
+        "description": "El mejor parque acuático que he visitado con piscinas que proceden de aguas que nacen de fuentes naturales, un lugar con un clima cálido pero su vegetación lo hace un lugar agradable y fresco.",
+        "score": 5
+      }
+    ]
+  },
+  {
+    "name": "Parque Arqueológico Casa Blanca",
+    "description": "Este parque alberga ruinas de pirámides prehispánicas que pertenecieron a un antiguo señorío maya del período Preclásico tardío. Además de las estructuras arqueológicas, el lugar cuenta con un museo que exhibe piezas únicas, como fragmentos de estelas con escritura maya, y una ventana arqueológica que revela capas de ceniza volcánica y restos culturales milenarios.",
+    "price": 1,
+    "googleMapsLink": "https://maps.app.goo.gl/AkD8oJ249n3maKhw7",
+    "image": "https://www.cultura.gob.sv/wp-content/uploads/2022/02/casa-blanca-03.jpg",
+
+    "images": [
+      "https://elsalvador.travel/system/wp-content/uploads/2020/01/Sitio-Arqueolo%CC%81gico-Casa-Blanca-2.jpg",
+      "https://gomundomaya.com/wp-content/uploads/2023/04/Tazumal-El-Salvador-696x370.jpeg",
+      "https://elsalvador.travel/system/wp-content/uploads/2020/10/13012021-Joya-de-Cere%CC%81n-Apertura-25-min.jpg",
+      "https://elsalvador.travel/system/wp-content/uploads/2020/10/joya2.jpg"
+    ],
+    "touristInflux": "Media",
+    "weather": "Cálido",
+    "attractions": [
+      "Visita al museo arqueológico",
+      "Fotografía y senderismo ligero",
+      "Eventos culturales y educativos",
+      "Taller de añil",
+      "Exploración de la ventana arqueológica"
+    ],
+    "experiences": [
+      {
+        "name": "Alexander Quinteros",
+        "description": "Casa Blanca mantiene vivencias únicas que lo hacen verdaderamente especial. Entre sus pirámides cubiertas de verde, el silencio parece contar historias milenarios. No solamente es considerado un sitio arqueológico, es un espacio donde personas de la antiguedad tuvieron un por vivir. ",
+        "score": 5
+      },
+      {
+        "name": "Jecel Pineda",
+        "description": "El sitio Arqueológico Casa Blanca es un lugar de historia viva. Sus pigmentos son indiscutibles, un lugar único donde se observa con calma su forma de vivir en la época pasada.",
         "score": 5
       }
     ]
