@@ -1,12 +1,12 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "Manrope", sans-serif;
-    background-color: #FFFBFC;
+  font-family: "Manrope", sans-serif;
+  background-color: #fffbfc;
 }
 
 .info-section {
@@ -84,4 +84,34 @@ body {
 
 .site-startButton:active .icon {
   transform: scale(0.95);
+}
+
+.about-section {
+  padding: 1rem;
+  margin: auto;
+  max-width: 600px;
+  color: white;
+  font-family: "Manrope", sans-serif;
+}
+
+.about-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #a370f0;
+  text-align: center;
+}
+
+.about-section p {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.about-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.about-section li {
+  margin-bottom: 0.5rem;
+  font-size: 1.02rem;
 }

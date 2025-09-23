@@ -23,7 +23,7 @@
   overflow: hidden;
   max-width: 800px;
   width: 100%;
-  transition: box-shadow .3s ease;
+  transition: box-shadow .3s ease;  
 }
 
 .place-card:hover {
