@@ -1,0 +1,42 @@
+.about-section {
+  padding: 2rem;
+}
+
+.about-section .wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.about-section-left p {
+  font-size: 1.2rem;
+  margin: 1.2rem 0;
+}
+
+.about-section-right img {
+  transition: transform 0.3s ease;
+  border-radius: 10px;
+}
+
+.about-section-right img:hover {
+  transform: translateY(-5px);
+}
+
+.about-section h1 {
+  text-align: center;
+}
+
+.about-section h2 {
+  margin-bottom: 1.1rem;
+}
+
+.about-section ul {
+  list-style: circle;
+  margin-left: 1.2rem;
+}
+
+.about-section ul li {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
