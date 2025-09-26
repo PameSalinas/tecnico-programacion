@@ -1,12 +1,13 @@
 .about-section {
-  padding: 2rem;
+  padding: 2rem 3rem 5rem 3rem;
 }
 
 .about-section .wrapper {
   display: flex;
-  flex-direction: row;
   gap: 1.5rem;
   margin-top: 1rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-section-left p {
@@ -15,12 +16,13 @@
 }
 
 .about-section-right img {
-  transition: transform 0.3s ease;
-  border-radius: 10px;
+  transition: all 0.3s ease;
+  border-radius: 15px;
 }
 
 .about-section-right img:hover {
   transform: translateY(-5px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .about-section h1 {

@@ -1,6 +1,6 @@
 [
   {
-    "name": "Pital",
+    "name": "El Pital",
     "description": "Un lugar hermoso con vistas impresionantes y una rica biodiversidad.Descubre Cerro El Pital, el punto más alto del país y uno de los destinos más impresionantes para los amantes del ecoturismo. Ubicado en San Ignacio, Chalatenango, este paraíso natural se eleva a 2,730 metros sobre el nivel del mar, ofreciendo un clima fresco, paisajes cubiertos de neblina y una biodiversidad única que lo convierten en un refugio ideal para la aventura y el descanso. Durante el recorrido hacia la cima, los visitantes atraviesan senderos rodeados de pinos, robles, encinos y cipresales, con vistas panorámicas que permiten observar otros volcanes, valles y hasta el Golfo de Fonseca en días despejados.",
     "price": 3,
     "googleMapsLink": "https://maps.app.goo.gl/kuKLXDREZTm4VT5T6",
@@ -34,7 +34,7 @@
   },
   {
     "name": "Volcán de Santa Ana Ilamatepec",
-    "description": "el Volcán de Santa Ana se eleva a 2,381 metros sobre el nivel del mar, coronándose como el punto volcánico más alto de El Salvador. Su imponente cráter alberga una laguna de color turquesa, formada por aguas sulfurosas, que ofrece una vista surreal y única en la región. La caminata hacia la cima es una experiencia inolvidable: atraviesas bosques nubosos, vegetación de montaña y zonas erosionadas, mientras el clima fresco te acompaña en cada paso. Desde lo alto, puedes contemplar el majestuoso Lago de Coatepeque, otros volcanes del complejo Apaneca-Ilamatepec, y vastos paisajes cafetaleros.",
+    "description": "El Volcán de Santa Ana se eleva a 2,381 metros sobre el nivel del mar, coronándose como el punto volcánico más alto de El Salvador. Su imponente cráter alberga una laguna de color turquesa, formada por aguas sulfurosas, que ofrece una vista surreal y única en la región. La caminata hacia la cima es una experiencia inolvidable: atraviesas bosques nubosos, vegetación de montaña y zonas erosionadas, mientras el clima fresco te acompaña en cada paso. Desde lo alto, puedes contemplar el majestuoso Lago de Coatepeque, otros volcanes del complejo Apaneca-Ilamatepec, y vastos paisajes cafetaleros.",
     "price": 3,
     "googleMapsLink": "https://maps.app.goo.gl/Jw5Eusv31ufa1UEH6",
     "image": "https://elsalvador.travel/system/wp-content/uploads/2020/01/volcan-ilamatepeque-scaled.jpg",
@@ -101,7 +101,7 @@
     "image": "https://pbs.twimg.com/media/FsJs3KmXwAEaTf3.jpg:large",
     "images": [
       "https://media.istockphoto.com/id/626502706/es/foto/izalco-volcano-cerro-verde-national-park-el-salvador.jpg?s=612x612&w=0&k=20&c=-0KoPyrZzToEb8sqtpaf4MpXesqAcLWK20E08x_fKJA=",
-      "https://scontent.fsal1-1.fna.fbcdn.net/v/t39.30808-6/490076680_1108229951336745_5322044639037685622_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=wySyeDjZ0dYQ7kNvwF_gDhi&_nc_oc=Adn2HQKMqh2mghf2wKUehvShYVWwhfSG1phvXhFzCnsGKtottOXeSRwTwsoMHa-jKqs&_nc_zt=23&_nc_ht=scontent.fsal1-1.fna&_nc_gid=na6PxI0dVAcfhiL58maWEA&oh=00_AfY1jng6OL5VEJlgDuoHYePrfu408mTNYywDnpv_ReVnZw&oe=68CFA3D7",
+      "https://mediaim.expedia.com/destination/1/48d5737b700661a8688e4d64b497fb04.jpg",
       "https://elsalvador.travel/system/wp-content/uploads/2022/12/DestinationCerroVerde01.jpg",
       "https://media-cdn.tripadvisor.com/media/photo-s/03/28/6d/ce/national-park-cerro-verde.jpg"
     ],
@@ -204,7 +204,7 @@
     "images": [
       "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/72/ee/1a/photo0jpg.jpg?w=900&h=500&s=1",
       "https://scontent.fsal2-1.fna.fbcdn.net/v/t1.6435-9/182913585_4486134454749006_8726020669211359301_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=FhsCqHdHX7gQ7kNvwEI3pjs&_nc_oc=AdnXYYMzAWau4uiFU5XD50ekJtTtrgkHvu-Jgvlpthd3AoFW9Y1CVL25f-V1Mofl6k9gO9rxFIQ2jvsQN_fxT31W&_nc_zt=23&_nc_ht=scontent.fsal2-1.fna&_nc_gid=K--dbWvlS9S5k3usgowp6g&oh=00_AfZNG8X81cpw57C4R8QEAFT6K1dnAC2QvsRUfkCir-bVcw&oe=68F3D251",
-      "https://scontent.fsal3-1.fna.fbcdn.net/v/t39.30808-6/485081142_1049422760544945_4729088667729165736_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=NE7wqSF8oEIQ7kNvwHkohO1&_nc_oc=AdlXIn6xLeatnVKlOWv0ZU6KWP4jVWHotc2fhuMJNrBvKVD8f1QpaEHe-4EQxm3qXZF8Xj78bCpRECxhFbyAtkts&_nc_zt=23&_nc_ht=scontent.fsal3-1.fna&_nc_gid=Q_XzWmrvqrc_T_gQfjNSow&oh=00_Afbsua2V77J8j3w5ND6bETSYhmAPfjRYX-yd1-uSQNh9-g&oe=68D23D01",
+      "https://scontent.fsal14-1.fna.fbcdn.net/v/t1.6435-9/176055186_4440949789267473_3528963587893488741_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=k59LUr5dZWQQ7kNvwEkK9d7&_nc_oc=Adm-erz39N9-OGFBtXB0gSBeWnaxCeYNiWf8XXhODb9Ozqb9uzaBrYoGgYwW-oZruZI&_nc_zt=23&_nc_ht=scontent.fsal14-1.fna&_nc_gid=0aq7UBid01QTcNB4QkUGPQ&oh=00_AfZ0E1mNkf51bYhUz0iWvy2Ryv-QoN5IOd3YNQvHCl5HyQ&oe=68FE637A",
       "https://assets.isu.pub/document-structure/230529133422-a312256958d4e4da7776f5ee14580eaf/v1/0c520396f5ef1575f38736e23bcbc5f2.jpeg"
     ],
     "touristInflux": "Alta",

@@ -3,20 +3,19 @@ import Layout from "./layout.js";
 function aboutPage() {
   Layout(`
     <section class="about-section">
-      <h1>Conócenos</h1>
       <div class="wrapper">
         <div class="about-section-left">
+          <h1>Conócenos</h1>
           <p>
-            Este sitio web tiene el objetivo de mostrar, de manera sencilla y clara, algunos de los lugares turísticos más bellos de El Salvador.
-            Aquí vas a encontrar una selección de destinos que destacan por su belleza natural, historia o popularidad entre los visitantes.
+            Este sitio web tiene el objetivo de mostrar, de manera sencilla y clara, algunos de los lugares turísticos más bellos de El Salvador. Aquí vas a encontrar una selección de destinos que destacan por su belleza natural, historia o popularidad entre los visitantes.
           </p>
 
           <p>
-             Aquí podrás conocer lo más importante de cada lugar antes de visitarlo: su nombre, una breve descripción, su precio, su ubicación, su clima, qué tipo de experiencias ofrece y fotos del lugar.
+             Aquí podrás conocer lo más importante de cada lugar antes de visitarlo: su nombre, una breve descripción, su precio, su ubicación, su clima, qué tipo de actividades ofrece y fotos del lugar.
           </p>
+
           <p>
-            Nos encanta El Salvador y creemos que tiene muchísimos lugares increíbles que vale la pena visitar. A veces, solo falta tener la información organizada y accesible en un solo lugar, sin complicaciones.
-            Este proyecto nació con esa intención: ayudarte a descubrir o redescubrir rincones turísticos del país sin tener que buscar en muchos lados.
+            Nos encanta El Salvador y creemos que tiene muchísimos lugares increíbles que vale la pena visitar. A veces, solo falta tener la información organizada y accesible en un solo lugar, sin complicaciones. Este proyecto nació con esa intención: ayudarte a descubrir o redescubrir rincones turísticos del país sin tener que buscar en muchos lados.
           </p>
 
           <h2>¿Qué vas a encontrar aquí?</h2>
