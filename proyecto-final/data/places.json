@@ -1,7 +1,7 @@
 [
   {
     "name": "El Pital",
-    "description": "Un lugar hermoso con vistas impresionantes y una rica biodiversidad.Descubre Cerro El Pital, el punto más alto del país y uno de los destinos más impresionantes para los amantes del ecoturismo. Ubicado en San Ignacio, Chalatenango, este paraíso natural se eleva a 2,730 metros sobre el nivel del mar, ofreciendo un clima fresco, paisajes cubiertos de neblina y una biodiversidad única que lo convierten en un refugio ideal para la aventura y el descanso. Durante el recorrido hacia la cima, los visitantes atraviesan senderos rodeados de pinos, robles, encinos y cipresales, con vistas panorámicas que permiten observar otros volcanes, valles y hasta el Golfo de Fonseca en días despejados.",
+    "description": "Un lugar hermoso con vistas impresionantes y una rica biodiversidad. Descubre Cerro El Pital, el punto más alto del país y uno de los destinos más impresionantes para los amantes del ecoturismo. Ubicado en San Ignacio, Chalatenango, este paraíso natural se eleva a 2,730 metros sobre el nivel del mar, ofreciendo un clima fresco, paisajes cubiertos de neblina y una biodiversidad única que lo convierten en un refugio ideal para la aventura y el descanso. Durante el recorrido hacia la cima, los visitantes atraviesan senderos rodeados de pinos, robles, encinos y cipresales, con vistas panorámicas que permiten observar otros volcanes, valles y hasta el Golfo de Fonseca en días despejados.",
     "price": 3,
     "googleMapsLink": "https://maps.app.goo.gl/kuKLXDREZTm4VT5T6",
     "image": "https://venture-out.s3.us-east-2.amazonaws.com/guide-images/1744963413788-media%3Fkey%3DAIzaSyCkpNVocP1IwgtIz1s4aaTb1GgwMdUtzBw%26maxHeightPx%3D800%26maxWidthPx%3D800",
@@ -13,7 +13,7 @@
     ],
     "touristInflux": "Alta",
     "weather": "Frío",
-    "atractions": [
+    "attractions": [
       "Senderismo",
       "Miradores",
       "Acampar",
@@ -36,7 +36,7 @@
     "name": "Volcán de Santa Ana Ilamatepec",
     "description": "El Volcán de Santa Ana se eleva a 2,381 metros sobre el nivel del mar, coronándose como el punto volcánico más alto de El Salvador. Su imponente cráter alberga una laguna de color turquesa, formada por aguas sulfurosas, que ofrece una vista surreal y única en la región. La caminata hacia la cima es una experiencia inolvidable: atraviesas bosques nubosos, vegetación de montaña y zonas erosionadas, mientras el clima fresco te acompaña en cada paso. Desde lo alto, puedes contemplar el majestuoso Lago de Coatepeque, otros volcanes del complejo Apaneca-Ilamatepec, y vastos paisajes cafetaleros.",
     "price": 3,
-    "googleMapsLink": "https://maps.app.goo.gl/Jw5Eusv31ufa1UEH6",
+    "googleMapsLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15495.268029133616!2d-89.63974413832548!3d13.850020368750432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f62c16156d6e997%3A0x2fd88a9ab0dbc675!2sVolc%C3%A1n%20de%20Santa%20Ana!5e0!3m2!1ses!2ssv!4v1759271029353!5m2!1ses!2ssv",
     "image": "https://elsalvador.travel/system/wp-content/uploads/2020/01/volcan-ilamatepeque-scaled.jpg",
     "images": [
       "https://elsalvador.travel/system/wp-content/uploads/2024/06/santa-ana04.jpg",
@@ -45,8 +45,8 @@
       "https://online.salvadoreantours.com/wp-content/uploads/2016/05/volcan-ilamatepec-panoramica-e1463606831571.jpg"
     ],
     "touristInflux": "Alta",
-    "weaher": "Templado",
-    "atractions": ["Senderismo", "bosque nublados", "Zona de camping"],
+    "weather": "Templado",
+    "attractions": ["Senderismo", "Bosques nublados", "Zona de camping"],
     "experiences": [
       {
         "name": "Anaí Torres",
@@ -268,7 +268,7 @@
     "name": "La Puerta del Diablo",
     "description": "Ubicada en el municipio de Panchimalco, al sur de San Salvador, La Puerta del Diablo constituye uno de los destinos turísticos más emblemáticos de El Salvador. Este sitio se distingue por su imponente formación rocosa, compuesta por dos peñascos separados por una grieta profunda, desde donde se despliegan vistas panorámicas que abarcan el valle de San Salvador, el océano Pacífico y diversos volcanes del país.",
     "price": 2,
-    "googleMapsLink": "https://maps.app.goo.gl/msosiYQnnNS2pvPx9",
+    "googleMapsLink": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15509.588164274297!2d-89.18846043389885!3d13.633595416367273!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6333dd4dd8b4a9%3A0x64ab35fb0d7621fa!2sPuerta%20del%20Diablo!5e0!3m2!1ses-419!2ssv!4v1759270459481!5m2!1ses-419!2ssv",
     "image": "https://www.civitatis.com/f/el-salvador/san-salvador/galeria/miradores-cristal.jpg",
 
     "images": [
@@ -303,11 +303,11 @@
     "name": "Laguna de Alegría",
     "description": "El entorno natural que rodea la laguna está compuesto por bosques de pino y vegetación de altura, lo que genera un microclima fresco y propicio para el ecoturismo, la investigación ambiental y la contemplación paisajística. El sitio cuenta con senderos accesibles, miradores naturales y zonas de descanso que permiten al visitante interactuar con el ecosistema sin alterar su equilibrio. Desde el punto de vista cultural, la Laguna de Alegría está profundamente vinculada al imaginario popular salvadoreño.",
     "price": 2,
-    "googleMapsLink": "https://maps.app.goo.gl/wKpNkWb8rSzwPidY9",
+    "googleMapsLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d942.3121884417303!2d-88.49380141582839!3d13.49280674107245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f7b4a5fd19be3d7%3A0xd29c7786cf135ed8!2sLaguna%20de%20Alegr%C3%ADa!5e0!3m2!1ses-419!2ssv!4v1759270875983!5m2!1ses-419!2ssv",
     "image": "https://elsalvador.travel/system/wp-content/uploads/2021/04/Laguna-de-Alegri%CC%81a-3.jpg",
 
     "images": [
-      "https://elsalvadordescansoydiversion.wordpress.com/wp-content/uploads/2012/09/5465092258_22995cbd722.jpg",
+      "https://scontent.fsal14-1.fna.fbcdn.net/v/t39.30808-6/487482762_1096077505892958_2714494842460595052_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=VoSuSxt2bbwQ7kNvwHgeA40&_nc_oc=AdkWohOnHPRIMdp7LmDv_FrEWxoYfjshBZw9UZ98CgyFTwKQrMtR4is8YF4w0YnxPD4&_nc_zt=23&_nc_ht=scontent.fsal14-1.fna&_nc_gid=teDGkOeO6uMX-bP6ozCU9w&oh=00_AfbKOZB2JbDD81oSo5R6KRPq3NuHxpI4jsjvqUfJ1iY6jw&oe=68E221AE",
       "https://i.pinimg.com/736x/1b/1b/b8/1b1bb85bf14e28820ab768ee5ddcf643.jpg",
       "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/6c/43/00.jpg",
       "https://i.pinimg.com/1200x/cf/d6/f6/cfd6f61a7d72e312916a0afff064573c.jpg"
