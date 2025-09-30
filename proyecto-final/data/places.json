@@ -263,5 +263,75 @@
         "score": 5
       }
     ]
+  },
+  {
+    "name": "La Puerta del Diablo",
+    "description": "Ubicada en el municipio de Panchimalco, al sur de San Salvador, La Puerta del Diablo constituye uno de los destinos turísticos más emblemáticos de El Salvador. Este sitio se distingue por su imponente formación rocosa, compuesta por dos peñascos separados por una grieta profunda, desde donde se despliegan vistas panorámicas que abarcan el valle de San Salvador, el océano Pacífico y diversos volcanes del país.",
+    "price": 2,
+    "googleMapsLink": "https://maps.app.goo.gl/msosiYQnnNS2pvPx9",
+    "image": "https://www.civitatis.com/f/el-salvador/san-salvador/galeria/miradores-cristal.jpg",
+
+    "images": [
+      "https://rotaryca.org/wp-content/uploads/2019/02/La-Puerta-del-Diablo.jpg",
+      "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/12/reapertura-puerta-del-diablo-1.jpg",
+      "https://pbs.twimg.com/media/GArG0x0XMAAKnfw.jpg",
+      "https://alcaldiass.wordpress.com/wp-content/uploads/2009/05/puerta-del-diablo.jpg"
+    ],
+    "touristInflux": "Alta",
+    "weather": "Templado",
+    "attractions": [
+      "Senderismo",
+      "Prácticar deportes",
+      "Miradores de cristal",
+      "Observación de amaneceres",
+      "Toma de fotografía"
+    ],
+    "experiences": [
+      {
+        "name": "Joshua Gonzales",
+        "description": "Visitar La Puerta del Diablo fue una experiencia que superó todas mis expectativas. Desde que llegamos a Panchimalco, el aire fresco y la vegetación nos daban la bienvenida. El ascenso al mirador fue relativamente corto, pero cada paso revelaba paisajes más impresionantes. Al llegar a la cima, me encontré frente a los dos peñascos que forman la famosa grieta: una vista imponente que parece sacada de una leyenda.",
+        "score": 5
+      },
+      {
+        "name": "Samuel Miranda",
+        "description": "La caminata hacia el mirador fue breve pero intensa. A medida que ascendía, el aire se volvía más fresco y el silencio más profundo, interrumpido solo por el canto de aves y el crujir de las hojas bajo mis pies. Al llegar a la cima, me encontré frente a los dos peñascos que forman la famosa grieta. La vista era simplemente sobrecogedora: el océano a lo lejos, los volcanes perfilando el horizonte, y un mar de verdes que parecía no tener fin",
+        "score": 5
+      }
+    ]
+  },
+  {
+    "name": "Laguna de Alegría",
+    "description": "El entorno natural que rodea la laguna está compuesto por bosques de pino y vegetación de altura, lo que genera un microclima fresco y propicio para el ecoturismo, la investigación ambiental y la contemplación paisajística. El sitio cuenta con senderos accesibles, miradores naturales y zonas de descanso que permiten al visitante interactuar con el ecosistema sin alterar su equilibrio. Desde el punto de vista cultural, la Laguna de Alegría está profundamente vinculada al imaginario popular salvadoreño.",
+    "price": 2,
+    "googleMapsLink": "https://maps.app.goo.gl/wKpNkWb8rSzwPidY9",
+    "image": "https://elsalvador.travel/system/wp-content/uploads/2021/04/Laguna-de-Alegri%CC%81a-3.jpg",
+
+    "images": [
+      "https://elsalvadordescansoydiversion.wordpress.com/wp-content/uploads/2012/09/5465092258_22995cbd722.jpg",
+      "https://i.pinimg.com/736x/1b/1b/b8/1b1bb85bf14e28820ab768ee5ddcf643.jpg",
+      "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/6c/43/00.jpg",
+      "https://i.pinimg.com/1200x/cf/d6/f6/cfd6f61a7d72e312916a0afff064573c.jpg"
+    ],
+    "touristInflux": "Media",
+    "weather": "Cálida",
+    "attractions": [
+      "Observación paisajística",
+      "Exploración geológica",
+      "Picnic",
+      "Exploración botánica",
+      "Caminatas ecologicas"
+    ],
+    "experiences": [
+      {
+        "name": "Karla Argueta",
+        "description": "Durante una visita técnica realizada por un grupo de geólogos y ecoturistas, se destacó el valor geológico, paisajístico y cultural de la Laguna de Alegría, ubicada en el cráter del volcán Tecapa. El recorrido inició a primera hora de la mañana, cuando la neblina aún cubría parcialmente el espejo de agua, generando una atmósfera mística que cautivó a los participantes.El equipo observó que la laguna presenta una coloración verde esmeralda, atribuida a su alta concentración de azufre y minerales volcánicos. Se tomaron muestras del agua y del sedimento para análisis químico, confirmando su acidez y propiedades terapéuticas.",
+        "score": 3
+      },
+      {
+        "name": "Javier Ramirez",
+        "description": "La jornada comenzó con un ascenso por caminos empedrados bordeados de vegetación nativa. Al llegar al mirador principal, la Laguna de Alegría se reveló como un espejo verde esmeralda incrustado en el cráter del volcán Tecapa. La neblina matutina flotaba sobre el agua, creando una atmósfera de recogimiento y misterio.El grupo de visitantes, compuesto por educadores, biólogos y promotores turísticos, realizó una caminata interpretativa alrededor del cráter. Se identificaron especies de flora adaptadas al suelo volcánico, y se discutió la importancia de conservar este ecosistema frágil. El olor a azufre era persistente, pero no invasivo; más bien, evocaba la fuerza geotérmica que da vida al lugar.",
+        "score": 4
+      }
+    ]
   }
 ]
