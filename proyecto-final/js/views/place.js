@@ -1,5 +1,6 @@
 import { getParams } from "../utils.js";
 import Layout from "./layout.js";
+import { RightIcon, LeftIcon } from "../components/Icons.js";
 
 function placePage() {
   document.getElementById("app").innerHTML = "<h1>Cargando lugares...</h1>";
@@ -19,11 +20,59 @@ function placePage() {
     });
 }
 
+function initCarousel() {
+  const images = document.querySelectorAll(".carousel-img");
+  const prevBtn = document.querySelector(".carousel-btn.prev");
+  const nextBtn = document.querySelector(".carousel-btn.next");
+
+  let current = 0;
+  let intervalId;
+
+  function showImage(index) {
+    images.forEach((img, i) => {
+      img.classList.toggle("active", i === index);
+    });
+  }
+
+  function nextImage() {
+    current = (current + 1) % images.length;
+    showImage(current);
+  }
+
+  function prevImage() {
+    current = (current - 1 + images.length) % images.length;
+    showImage(current);
+  }
+
+  function startAutoplay() {
+    intervalId = setInterval(nextImage, 3000); // cambia cada 3 segundos
+  }
+
+  function stopAutoplay() {
+    clearInterval(intervalId);
+  }
+
+  nextBtn.addEventListener("click", () => {
+    nextImage();
+    stopAutoplay();
+    startAutoplay();
+  });
+
+  prevBtn.addEventListener("click", () => {
+    prevImage();
+    stopAutoplay();
+    startAutoplay();
+  });
+
+  showImage(current);
+  startAutoplay();
+}
+
 function renderPlace(places) {
   const params = getParams("/place/:name", window.location.pathname);
   const placeName = params.name;
-  const place = places.find((p) => p.name === placeName)
-  console.log(place.atractions)
+  const place = places.find((p) => p.name === placeName);
+  console.log(place.atractions);
 
   const placeContent = `
     <div class="place-wrapper">
@@ -46,13 +95,35 @@ function renderPlace(places) {
         </div>
 
         <div>
-          <iframe src="${place.googleMapsLink}" width="600" height="450" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe src="${
+            place.googleMapsLink
+          }" width="600" height="450" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
+
+      <div class="carousel">
+        <div class="carousel-images">
+          ${place.images
+            .map(
+              (img, index) => `
+                <img src="${img}" class="carousel-img${
+                index === 0 ? " active" : ""
+              }" alt="Imagen de ${place.name} ${index + 1}"/>
+                `
+            )
+            .join("")}
+        </div>
+        <button class="carousel-btn prev">${LeftIcon()}</button>
+        <button class="carousel-btn next">${RightIcon()}</button>
+      </div>
+
+      <div>
+      </div>
       </section> 
     </div>
   `;
 
   Layout(placeContent);
+  initCarousel();
 }
 
 export default placePage;
