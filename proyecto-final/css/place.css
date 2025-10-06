@@ -1,34 +1,107 @@
+.place-wrapper {
+  padding: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.place-wrapper h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.place-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.place-container > div:first-child {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.place-container-left {
+  flex: 1;
+  min-width: 280px;
+  font-size: 1.2rem;
+}
+
+.place-container-left p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.place-container-left ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+.place-container-left h2,
+.location-container h2 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.2rem;
+  font-size: 1.8rem;
+}
+
+.place-container-right {
+  flex: 1;
+  min-width: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .place-container-right img {
-width: 250px;
-border-radius: 10px;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.place-container-right img:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.place-container iframe {
+  width: 100%;
+  height: 450px;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
 }
 
 .carousel {
   position: relative;
   width: 100%;
-  max-width: 800px;
-  margin: 2rem auto;
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: 12px;
+  margin-top: 2rem;
+}
+
+.carousel h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
 }
 
 .carousel-images {
   display: flex;
   transition: transform 0.5s ease-in-out;
+  will-change: transform;
 }
 
 .carousel-img {
   min-width: 100%;
-  display: none;
-  object-fit: cover;
   height: 400px;
+  object-fit: cover;
+  border-radius: 12px;
 }
 
-.carousel-img.active {
-  display: block;
-}
-
-/* .carousel-btn {
+.carousel-btn {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -37,36 +110,93 @@ border-radius: 10px;
   cursor: pointer;
   padding: 0.5rem;
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 48px;
+  height: 48px;
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 10;
+  transition: background 0.3s ease;
+  color: #fff;
 }
 
-.carousel-btn svg {
-  fill: white;
-}
-*/
-
-.carousel-btn {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 2rem;
-  background-color: rgba(0,0,0,0.4);
-  color: white;
-  border: none;
-  padding: 0.5rem 1rem;
-  cursor: pointer;
-  z-index: 10;
+.carousel-btn:hover {
+  background: rgba(0, 0, 0, 0.6);
 }
 
 .carousel-btn.prev {
-  left: 10px;
+  left: 16px;
 }
 
 .carousel-btn.next {
-  right: 10px;
-} 
+  right: 16px;
+}
+
+.place-experiences {
+  margin-top: 1.3rem;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.place-experiences h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.experience-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.experience-item {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1.5rem;
+}
+
+.experience-item h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.3rem;
+}
+
+.experience-stars {
+  color: #f1c40f;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.experience-item p {
+  line-height: 1.6;
+  color: #222;
+  font-size: 1.2rem;
+}
+
+@media (width < 768px) {
+  .place-container > div:first-child {
+    flex-direction: column;
+  }
+
+  .place-container-right img {
+    max-width: 100%;
+  }
+
+  .carousel-img {
+    height: 250px;
+  }
+
+  .carousel-btn {
+    width: 40px;
+    height: 40px;
+  }
+
+  .carousel-btn svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .place-wrapper h1 {
+    font-size: 2rem;
+  }
+}

@@ -42,11 +42,15 @@
   max-width: 90%;
   object-fit: contain;
   border-radius: 8px;
-  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
   transition: opacity 0.5s ease-in-out;
 }
 
 @keyframes scrollBackground {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-20%);
+  }
 }
