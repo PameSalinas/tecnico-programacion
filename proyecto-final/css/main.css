@@ -86,3 +86,8 @@ body {
   transform: scale(0.95);
 }
 
+@media (width < 768px) {
+  .info-section {
+    padding: 1.5rem;
+  }
+}

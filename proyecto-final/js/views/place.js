@@ -72,7 +72,6 @@ function renderPlace(places) {
   const params = getParams("/place/:name", window.location.pathname);
   const placeName = params.name;
   const place = places.find((p) => p.name === placeName);
-  console.log(place.atractions);
 
   const placeContent = `
     <div class="place-wrapper">

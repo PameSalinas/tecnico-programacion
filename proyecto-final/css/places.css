@@ -82,7 +82,7 @@
 
 @media (width < 768px) {
   .places-wrapper {
-    padding: 1rem;
+    padding: 1.5rem;
   }
 
   .places-wrapper h1 {
@@ -112,15 +112,15 @@
   }
 
   .place-image-section h2 {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 
   .place-info-section p {
-    font-size: 0.95rem;
+    font-size: 1rem;
   }
 
   .place-info-section a {
-    font-size: 0.95rem;
+    font-size: 1rem;
     padding: 0.5rem 1rem;
   }
 }
