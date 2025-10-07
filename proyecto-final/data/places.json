@@ -21,12 +21,12 @@
     ],
     "experiences": [
       {
-        "name:": "Adrian Gonzalez",
+        "name": "Adrian Gonzalez",
         "description": "Una experiencia inolvidable en Pital, rodeado de naturaleza y tranquilidad.",
         "score": 5
       },
       {
-        "name:": "Maria Lopez",
+        "name": "Maria Lopez",
         "description": "Disfruté cada momento en Pital, un lugar perfecto para desconectar y recargar energías.",
         "score": 4
       }
@@ -46,7 +46,11 @@
     ],
     "touristInflux": "Alta",
     "weather": "Templado",
-    "attractions": ["Senderismo", "Bosques nublados", "Zona de camping"],
+    "attractions": [
+      "Senderismo",
+      "Bosques nublados",
+      "Zona de camping"
+    ],
     "experiences": [
       {
         "name": "Anaí Torres",
@@ -200,7 +204,6 @@
     "price": 3,
     "googleMapsLink": "https://maps.app.goo.gl/kVyCDqVXxhtaRDLp9",
     "image": "https://scontent.fsal3-1.fna.fbcdn.net/v/t1.6435-9/128729207_4027495373946252_1073947813510088304_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=pCiAWUjEb7YQ7kNvwFsbCkY&_nc_oc=AdmMA5W1wH94chnZpDPqN4Q56GDc92HrA9Lj3rptUdQQtNNeETl7Ny7PSlG943qCdXuV9DJHNfiuWnp7xoubo03h&_nc_zt=23&_nc_ht=scontent.fsal3-1.fna&_nc_gid=ZCM8aJeUNqgoYbr0hzLg2Q&oh=00_AfY4Ac34wdWF3uzg0P3B1vMeqBnqagMz1oEFP8B8o-8KfA&oe=68F3F915",
-
     "images": [
       "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/72/ee/1a/photo0jpg.jpg?w=900&h=500&s=1",
       "https://scontent.fsal2-1.fna.fbcdn.net/v/t1.6435-9/182913585_4486134454749006_8726020669211359301_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=FhsCqHdHX7gQ7kNvwEI3pjs&_nc_oc=AdnXYYMzAWau4uiFU5XD50ekJtTtrgkHvu-Jgvlpthd3AoFW9Y1CVL25f-V1Mofl6k9gO9rxFIQ2jvsQN_fxT31W&_nc_zt=23&_nc_ht=scontent.fsal2-1.fna&_nc_gid=K--dbWvlS9S5k3usgowp6g&oh=00_AfZNG8X81cpw57C4R8QEAFT6K1dnAC2QvsRUfkCir-bVcw&oe=68F3D251",
@@ -235,7 +238,6 @@
     "price": 1,
     "googleMapsLink": "https://maps.app.goo.gl/AkD8oJ249n3maKhw7",
     "image": "https://www.cultura.gob.sv/wp-content/uploads/2022/02/casa-blanca-03.jpg",
-
     "images": [
       "https://elsalvador.travel/system/wp-content/uploads/2020/01/Sitio-Arqueolo%CC%81gico-Casa-Blanca-2.jpg",
       "https://gomundomaya.com/wp-content/uploads/2023/04/Tazumal-El-Salvador-696x370.jpeg",
@@ -270,7 +272,6 @@
     "price": 2,
     "googleMapsLink": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15509.588164274297!2d-89.18846043389885!3d13.633595416367273!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6333dd4dd8b4a9%3A0x64ab35fb0d7621fa!2sPuerta%20del%20Diablo!5e0!3m2!1ses-419!2ssv!4v1759270459481!5m2!1ses-419!2ssv",
     "image": "https://www.civitatis.com/f/el-salvador/san-salvador/galeria/miradores-cristal.jpg",
-
     "images": [
       "https://rotaryca.org/wp-content/uploads/2019/02/La-Puerta-del-Diablo.jpg",
       "https://cdn-pro.elsalvador.com/wp-content/uploads/2023/12/reapertura-puerta-del-diablo-1.jpg",
@@ -305,9 +306,8 @@
     "price": 2,
     "googleMapsLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d942.3121884417303!2d-88.49380141582839!3d13.49280674107245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f7b4a5fd19be3d7%3A0xd29c7786cf135ed8!2sLaguna%20de%20Alegr%C3%ADa!5e0!3m2!1ses-419!2ssv!4v1759270875983!5m2!1ses-419!2ssv",
     "image": "https://elsalvador.travel/system/wp-content/uploads/2021/04/Laguna-de-Alegri%CC%81a-3.jpg",
-
     "images": [
-      "https://scontent.fsal14-1.fna.fbcdn.net/v/t39.30808-6/487482762_1096077505892958_2714494842460595052_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=VoSuSxt2bbwQ7kNvwHgeA40&_nc_oc=AdkWohOnHPRIMdp7LmDv_FrEWxoYfjshBZw9UZ98CgyFTwKQrMtR4is8YF4w0YnxPD4&_nc_zt=23&_nc_ht=scontent.fsal14-1.fna&_nc_gid=teDGkOeO6uMX-bP6ozCU9w&oh=00_AfbKOZB2JbDD81oSo5R6KRPq3NuHxpI4jsjvqUfJ1iY6jw&oe=68E221AE",
+      "https://travelmademedoit.com/wp-content/uploads/2022/03/DSC03639.jpg",
       "https://i.pinimg.com/736x/1b/1b/b8/1b1bb85bf14e28820ab768ee5ddcf643.jpg",
       "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/6c/43/00.jpg",
       "https://i.pinimg.com/1200x/cf/d6/f6/cfd6f61a7d72e312916a0afff064573c.jpg"

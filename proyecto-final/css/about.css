@@ -17,7 +17,7 @@
 
 .about-section-right img {
   transition: all 0.3s ease;
-  border-radius: 15px;
+  border-radius: 12px;
 }
 
 .about-section-right img:hover {
@@ -34,11 +34,40 @@
 }
 
 .about-section ul {
-  list-style: circle;
+  list-style: disc;
   margin-left: 1.2rem;
 }
 
 .about-section ul li {
   margin-bottom: 0.5rem;
   font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .about-section {
+    padding: 1.5rem 1.2rem 3rem 1.2rem;
+  }
+
+  .about-section .wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .about-section-left p,
+  .about-section ul li {
+    font-size: 1rem;
+    text-align: justify;
+  }
+
+  .about-section h1,
+  .about-section h2 {
+    text-align: center;
+  }
+
+  .about-section-right img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
 }

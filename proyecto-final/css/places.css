@@ -19,7 +19,7 @@
   flex-direction: row;
   background: #ffffff;
   border: 1px solid #ccc;
-  border-radius: 10px;
+  border-radius: 12px;
   overflow: hidden;
   max-width: 800px;
   width: 100%;
@@ -40,12 +40,12 @@
 .place-image-section img {
   max-width: 100%;
   height: auto;
-  border-radius: 8px;
+  border-radius: 12px;
 }
 
 .place-image-section h2 {
   margin-top: 0.5rem;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   color: #222;
 }
 
@@ -58,7 +58,7 @@
 }
 
 .place-info-section p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #222;
   margin-bottom: 1rem;
 }
@@ -78,4 +78,49 @@
 .place-info-section a:hover {
   background-color: #985df0;
   transform: translateY(-2px);
+}
+
+@media (width < 768px) {
+  .places-wrapper {
+    padding: 1rem;
+  }
+
+  .places-wrapper h1 {
+    font-size: 1.5rem;
+  }
+
+  .places-container {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .place-card {
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .place-image-section,
+  .place-info-section {
+    flex: 1;
+    padding: 1rem;
+  }
+
+  .place-image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .place-image-section h2 {
+    font-size: 1.1rem;
+  }
+
+  .place-info-section p {
+    font-size: 0.95rem;
+  }
+
+  .place-info-section a {
+    font-size: 0.95rem;
+    padding: 0.5rem 1rem;
+  }
 }

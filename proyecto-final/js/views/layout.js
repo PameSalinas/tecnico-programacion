@@ -11,6 +11,16 @@ function Layout(content) {
     </main>
     ${Footer()}
   `;
+
+  const toggle = document.querySelector(".navbar-toggle");
+  const navLinks = document.querySelector(".navbar-links");
+
+  if (toggle && navLinks) {
+    toggle.addEventListener("click", () => {
+      navLinks.classList.toggle("active");
+      toggle.classList.toggle("open");
+    });
+  }
 }
 
 export default Layout;

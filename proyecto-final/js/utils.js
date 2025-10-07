@@ -36,9 +36,8 @@ export function initRandomMainImage(images) {
       mainImage.src = images[index];
       mainImage.style.opacity = 1;
     }, 300);
-  }, 2500);
+  }, 4000);
 }
-
 
 export function shuffleArray(array) {
   const shuffled = [...array];
@@ -48,4 +47,3 @@ export function shuffleArray(array) {
   }
   return shuffled;
 }
-
