@@ -1,7 +1,7 @@
 import Layout from "./layout.js";
 
 function aboutPage() {
-  Layout(`
+  const aboutContent = `
     <section class="about-section">
       <div class="wrapper">
         <div class="about-section-left">
@@ -41,7 +41,8 @@ function aboutPage() {
         </div>
       </div>
     </section>
-  `);
+  `;
+  Layout(aboutContent);
 }
 
 export default aboutPage;

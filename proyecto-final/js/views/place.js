@@ -1,9 +1,10 @@
 import { getParams } from "../utils.js";
 import Layout from "./layout.js";
 import { ArrowIconNext, ArrowIconPrev } from "../components/Icons.js";
+import Spinner from "../components/Spinner.js";
 
 function placePage() {
-  document.getElementById("app").innerHTML = "<h1>Cargando lugares...</h1>";
+  document.getElementById("app").innerHTML = Spinner();
 
   fetch("/data/places.json")
     .then((response) => {

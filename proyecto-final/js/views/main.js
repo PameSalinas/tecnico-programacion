@@ -1,8 +1,9 @@
 import Layout from "./layout.js";
 import { initRandomMainImage, shuffleArray } from "../utils.js";
+import Spinner from "../components/Spinner.js";
 
 function principalPage() {
-  document.getElementById("app").innerHTML = "<h1>Cargando lugares...</h1>";
+  document.getElementById("app").innerHTML = Spinner();
 
   fetch("/data/places.json")
     .then((response) => {

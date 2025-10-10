@@ -1,7 +1,8 @@
 import Layout from "./layout.js";
+import Spinner from "../components/Spinner.js";
 
 function placesPage() {
-  document.getElementById("app").innerHTML = "<h1>Cargando lugares...</h1>";
+  document.getElementById("app").innerHTML = Spinner();
 
   fetch("/data/places.json")
     .then((response) => {
